@@ -1,12 +1,17 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 *:focus {
-  outline: none;
+  outline: none !important;
 }
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+nav a:visited{
   color: white;
 }
 
@@ -26,35 +31,75 @@ a {
   text-align: center;
 }
 
-#hashtag-box {
-  overflow: auto;
-  overflow-x: scroll;
-  width: 82.5em;
-  display: block;
+#scroll-box-container {
+  height: 100%;
+  width: 82em;
+  margin: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
   text-align: center;
+  transition: all 2s;
 }
 
 #hash-scroll-box {
-  position: relative;
+  float: left;
   height: 100%;
-  width: 3500px;
+  width: 3010px;
+  overflow-y: hidden;
+  transition: all 2s;
+}
+
+.projectx-card {
+  height: 400px;
+  width: 300px;
+  float: left;
+  text-overflow: hidden;
+  word-wrap: break-word;
+  transition: all 0.8s ease-in-out;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
   overflow: hidden;
+  position: relative;
+  display: block;
 }
 
-#hash-scroll-box .projectx-card {
-    display: inline;
-    width: 300px;
-    height: 300px;
-    float: left;
-    background-color: #e3e3e3;
-    margin-left: 20px;
-    border-radius: 6px;
+.projectx-card:hover {
+  background-size: 100%;
 }
 
-nav a:visited{
+.projectx-card-text {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -170px;
   color: white;
 }
 
+.projectx-card-overlay {
+  display: none;
+  border: 1px solid black;
+  transition: .1s ease;
+  height: 400px;
+  width: 300px;
+  float: left;
+  text-overflow: hidden;
+  word-wrap: break-word;
+  transition: all 0.8s ease-in-out;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* search box buttons */
 .btn {
   color: #fff;
   cursor: pointer;
@@ -112,4 +157,17 @@ nav a:visited{
   text-decoration: none;
   text-shadow: -1px -1px 0 darken(#E1332D, 9.5%);
   transition: all 250ms linear;
+}
+
+/* end of buttons */
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+  #hash-scroll-box {
+    display: none;
+  }
+  #scroll-box-container {
+    display: none;
+  }
 }

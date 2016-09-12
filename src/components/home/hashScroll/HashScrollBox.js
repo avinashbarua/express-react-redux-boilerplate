@@ -1,30 +1,28 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 
 // import components
 import HashCard from './HashCard';
 
-class HashScrollBox extends React.Component {
-  render() {
+const HashScrollBox = ({hashtags, onShowtweets}) => {
     return (
-      <div id="hashtag-box">
-      <h1>into hashtags? yup, we got it!</h1>
       <div id="hash-scroll-box">
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-        <HashCard/>
-      </div>
+        {hashtags.map(hashtag =>
+          <HashCard key={hashtag.id}
+                    tag={hashtag.hashTag}
+                    tweets={hashtag.tweetNo}
+                    image={hashtag.image}
+                    id={hashtag.id}
+                    onShow={onShowtweets}/>
+        )}
       </div>
     );
-  }
-}
+};
 
+
+HashScrollBox.propTypes = {
+  hashtags: PropTypes.array.isRequired,
+  onShowtweets: PropTypes.func.isRequired
+};
 
 
 export default HashScrollBox;

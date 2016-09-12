@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
-import courses from './courseReducer';
-import authors from './authorReducer';
+import hashtags from './hashtagReducer';
 
 const rootReducer = combineReducers({
-  courses,
-  authors
+  hashtags
 });
 
 export default rootReducer;

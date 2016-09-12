@@ -2,7 +2,7 @@ import React from 'react';
 
 // import the components
 import SearchBox from './searchBox/SearchBox';
-import HashScrollBox from './hashScroll/HashScrollBox';
+import HashBox from './hashScroll/HashBox';
 
 class HomePage extends React.Component {
   render(){
@@ -14,11 +14,11 @@ class HomePage extends React.Component {
         </div>
       </div>
       <div className="o-grid">
-        <div className="o-grid__cell">Map</div>
+        <div className="o-grid__cell">Map Visualization Will be here</div>
       </div>
       <div className="o-grid">
         <div className="o-grid__cell">
-          <HashScrollBox/>
+          <HashBox/>
         </div>
       </div>
       <div className="o-grid">
