@@ -5,6 +5,11 @@ export function fetchAllHashTagsSuccess(hashtags) {
   return {type: types.FETCH_HASHTAGS_SUCCESS, hashtags};
 }
 
+export function toggleHashCardSuccess(hashtags, id) {
+  let hashtag = hashtags.filter((tag) => tag.id == id)[0];
+  return {type: types.TOGGLE_HASHCARD_SUCCESS, hashtag};
+}
+
 export function fetchAllHashTags() {
   const request = axios.get('http://localhost:5000/api/fuck');
   return (dispatch) => {
@@ -16,3 +21,4 @@ export function fetchAllHashTags() {
     });
   };
 }
+

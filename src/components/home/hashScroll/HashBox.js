@@ -1,12 +1,16 @@
 import React, {PropTypes} from 'react';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import * as hashActions from '../../../actions/hashActions';
 
 // import components
 import HashScrollBox from './HashScrollBox';
+import HashBoxFooter from './HashBoxFooter';
 
 class HashBox extends React.Component {
   constructor(props,context) {
     super(props,context);
+    this.state = {};
     this.scrollLeft = this.scrollLeft.bind(this);
     this.scrollRight = this.scrollRight.bind(this);
     this.popOverlay = this.popOverlay.bind(this);
@@ -23,9 +27,18 @@ class HashBox extends React.Component {
 
   popOverlay(event) {
     event.preventDefault();
-    /*document.getElementById('cardfront'+id).style.display = "none";
-    document.getElementById('cardback'+id).style.display = "block";*/
-    console.log(event.target.parentNode.parentNode.id);
+    let id = event.target.parentNode.parentNode.id;
+    id = id[id.length-1];
+    this.props.actions.toggleHashCardSuccess(this.props.hashtags,id);
+    let hashtag = this.props.hashtags.filter((tag) => tag.id == id)[0];
+    if(!hashtag.toggle){
+      document.getElementById('cardfront'+id).style.display = "none";
+      document.getElementById('cardback'+id).style.display = "block";
+    }
+    else {
+      document.getElementById('cardfront'+id).style.display = "block";
+      document.getElementById('cardback'+id).style.display = "none";
+    }
   }
 
   render() {
@@ -36,15 +49,15 @@ class HashBox extends React.Component {
         <div id="scroll-box-container">
           <HashScrollBox hashtags={hashtags} onShowtweets={this.popOverlay}/>
         </div>
-        <button className="btn btn-3" onClick={this.scrollRight}>«</button>
-        <button className="btn btn-3" onClick={this.scrollLeft}>»</button>
+        <HashBoxFooter scrollLeft={this.scrollLeft} scrollRight={this.scrollRight}/>
       </div>
     );
   }
 }
 
 HashBox.propTypes = {
-  hashtags: PropTypes.array.isRequired
+  hashtags: PropTypes.array.isRequired,
+  actions: PropTypes.object.isRequired
 };
 
 function mapStateToProps(state) {
@@ -53,5 +66,11 @@ function mapStateToProps(state) {
   };
 }
 
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(hashActions, dispatch)
+  };
+}
 
-export default connect(mapStateToProps)(HashBox);
+
+export default connect(mapStateToProps, mapDispatchToProps)(HashBox);

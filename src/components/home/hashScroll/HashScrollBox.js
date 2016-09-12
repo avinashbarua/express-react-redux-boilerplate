@@ -12,6 +12,7 @@ const HashScrollBox = ({hashtags, onShowtweets}) => {
                     tweets={hashtag.tweetNo}
                     image={hashtag.image}
                     id={hashtag.id}
+                    tweetTexts={hashtag.tweets}
                     onShow={onShowtweets}/>
         )}
       </div>

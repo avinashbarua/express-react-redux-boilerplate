@@ -4,6 +4,17 @@ body {
 }
 *:focus {
   outline: none !important;
+  border-color: transparent;
+  box-shadow: none;
+}
+.c-field:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+input{
+   text-align:center;
+   border: none;
 }
 
 a {
@@ -33,7 +44,7 @@ nav a:visited{
 
 #scroll-box-container {
   height: 100%;
-  width: 82em;
+  width: 82.5em;
   margin: auto;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -64,6 +75,8 @@ nav a:visited{
   position: relative;
   display: block;
 }
+
+/* check this for transitions: http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/;
 
 .projectx-card:hover {
   background-size: 100%;
@@ -159,6 +172,22 @@ nav a:visited{
   transition: all 250ms linear;
 }
 
+.btn-hashfooter {
+  float: right;
+  cursor: pointer;
+  height: 2em;
+  width: 2em;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  //overflow bug fix
+  opacity: .99;
+  border-radius: 28%;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .05);
+  background-color: white;
+}
+
 /* end of buttons */
 
 /* media queries */
@@ -170,4 +199,12 @@ nav a:visited{
   #scroll-box-container {
     display: none;
   }
+}
+
+/* all footers */
+.hashFooterBar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #E1332D;
+  color: white;
 }
