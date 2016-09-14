@@ -67,8 +67,8 @@ nav a:visited{
   text-overflow: hidden;
   word-wrap: break-word;
   transition: all 0.8s ease-in-out;
-  background-size: 110%;
-  background-position: center;
+  background-size: 100% 100%;
+  background-position: all;
   background-repeat: no-repeat;
   background-color: gray;
   overflow: hidden;
@@ -79,7 +79,7 @@ nav a:visited{
 /* check this for transitions: http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/;
 
 .projectx-card:hover {
-  background-size: 100%;
+  background-size: 110% 110%;
 }
 
 .projectx-card-text {

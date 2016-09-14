@@ -15,7 +15,7 @@ const HashCard = ({tag, tweets, image, id, tweetTexts, onShow}) => {
       </div>
       <div id={"cardback"+id} className="projectx-card-overlay">
         <div className="projectx-card-text">
-          {tweetTexts.map((tweet) => <p>{tweet}</p>)}
+          {tweetTexts.map((tweet) => <p>{tweet.tweet}</p>)}
           <button
             className="c-button c-button--rounded c-button--ghost c-button--xsmall"
             onClick={onShow}>Go Back
