@@ -1,7 +1,8 @@
-body {
+ body {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
-}
+  color: black;
+} 
 *:focus {
   outline: none !important;
   border-color: transparent;
@@ -40,6 +41,7 @@ nav a:visited{
 
 #search-tags {
   text-align: center;
+  font-size: 90%;
 }
 
 #scroll-box-container {
