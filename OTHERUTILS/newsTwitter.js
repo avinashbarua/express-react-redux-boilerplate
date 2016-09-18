@@ -41,20 +41,34 @@ var getHashTweets = function(){
       });
     }); // end of reurn new
 };
-var poop = [];
-getHashTweets().then(function(hashtags){
-  hashtags.map(function(hashtag){
-    client.get('search/tweets', {q:hashtag.name,count:2}, function(error, tweets, response) {
-      if (!error) {
-        var tweetsOfusers = tweets.statuses
-                                      .map(function(tweet){return {id: tweet.id,
-                                                                  text: tweet.text,
-                                                                  user: tweet.user.screen_name}});
-        hashtag.tweets = tweetsOfusers;
-        console.log(hashtag);
-      }
+
+var getTweets =  function(hashtags){
+    var arrayOftags = hashtags.map(function(hashtag){
+      return new Promise(function(resolve,reject){
+        client.get('search/tweets', {q:hashtag.name,count:5}, function(error, tweets, response) {
+          if (error) { reject(error); }
+          else {
+            var tweetsOfusers = tweets.statuses
+                                          .map(function(tweet){return {id: tweet.id,
+                                                                      text: tweet.text,
+                                                                      user: tweet.user.screen_name}});
+            hashtag.tweets = tweetsOfusers;
+            console.log(hashtag.name);
+            resolve(hashtag); 
+          }
+        });
+      }); // end of return promise
     });
-  });
+    return Promise.all(arrayOftags);
+};
+
+/*getHashTweets().then(getTweets).then(function(array){
+    console.log(array);
+});*/
+
+getHashTweets().then(getTweets).then(function(array){
+    console.log("======================^^^%%%%%%^^^^^^=====================");
+    console.log(array);
 });
 
 
