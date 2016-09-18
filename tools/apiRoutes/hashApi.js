@@ -1,6 +1,6 @@
 import express from 'express';
 import HashTags from '../models/hashTags';
-import returnObj from './mockapi';
+import returnObj from './mock_api';
 
 const router = express.Router();
 

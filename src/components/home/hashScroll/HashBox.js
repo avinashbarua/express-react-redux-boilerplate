@@ -28,7 +28,7 @@ class HashBox extends React.Component {
   popOverlay(event) {
     event.preventDefault();
     let id = event.target.parentNode.parentNode.id;
-    id = id[id.length-1];
+    id = id.match(/[0-9].*/)[0];
     this.props.actions.toggleHashCardSuccess(this.props.hashtags,id);
     let hashtag = this.props.hashtags.filter((tag) => tag.id == id)[0];
     if(!hashtag.toggle){

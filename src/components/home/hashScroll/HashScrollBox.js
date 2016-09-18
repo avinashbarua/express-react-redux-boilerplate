@@ -8,8 +8,8 @@ const HashScrollBox = ({hashtags, onShowtweets}) => {
       <div id="hash-scroll-box">
         {hashtags.map(hashtag =>
           <HashCard key={hashtag.id}
-                    tag={hashtag.hashTag}
-                    tweets={hashtag.tweetNo}
+                    tag={hashtag.name}
+                    tweet_volume={hashtag.tweet_volume}
                     image={hashtag.image}
                     id={hashtag.id}
                     tweetTexts={hashtag.tweets}
