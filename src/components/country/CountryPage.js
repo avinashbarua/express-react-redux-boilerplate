@@ -5,7 +5,7 @@ class CountryPage extends React.Component {
     return (
       <div>
         <h1>Countries</h1>
-        <p>This is the about page and I am sick</p>
+        <p>Country Wise News here.</p>
       </div>
     );
   }

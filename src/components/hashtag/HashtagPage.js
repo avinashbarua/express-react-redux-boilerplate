@@ -5,7 +5,7 @@ class HashtagPage extends React.Component {
     return (
       <div>
         <h1>HashTag</h1>
-        <p>This is the about page and I am sick</p>
+        <p>Embedded Tweets with Hahtags Here</p>
       </div>
     );
   }

@@ -1,0 +1,43 @@
+npm install rss-to-json
+
+
+India
+-----------------
+https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms&num=50
+
+https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://timesofindia.indiatimes.com/rssfeedstopstories.cms&num=50
+
+Other Countries
+-------------------
+Afganistan
+https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://www.pajhwok.com/en/nodequeue/1/feed&num=50
+
+Albania
+https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://www.tiranatimes.com/?feed=rss2&num=50
+
+Algeria
+http://www.aps.dz/en/algeria?format=feed
+
+American Samoa
+http://www.savalinews.com/feed/
+
+AndorrA
+??
+
+Angola
+http://allafrica.com/tools/headlines/rdf/angola/headlines.rdf
+
+Anguilla
+http://theanguillian.com/feed/
+
+Antarctica
+https://news.google.com/news?q=Antarctica&output=rss
+
+Antigua and Barbuda
+http://antiguaobserver.com/category/news/regional_news/feed/
+
+Argentina
+http://en.mercopress.com/rss/argentina
+
+Armenia
+http://asbarez.com/feed/

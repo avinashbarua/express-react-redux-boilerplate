@@ -1,21 +1,8 @@
+/* UNIVERSAL */
  body {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   color: black;
-} 
-*:focus {
-  outline: none !important;
-  border-color: transparent;
-  box-shadow: none;
-}
-.c-field:focus {
-  border-color: transparent;
-  box-shadow: none;
-}
-
-input{
-   text-align:center;
-   border: none;
 }
 
 a {
@@ -27,12 +14,33 @@ nav a:visited{
   color: white;
 }
 
+*:focus {
+  outline: none !important;
+  border-color: transparent;
+  box-shadow: none;
+}
+.c-button--ghost:not(:disabled):focus , .c-field:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+input{
+   text-align:center;
+   border: none;
+}
+
+/* end of UNIVERSAL */
+
 /* utilities */
 .clear {
     clear: both;
 }
 /* end utilities */
 
+
+/* HOMEPAGE */
+
+/*SEARCH BOX IN HOMEPAGE */
 #search-box {
   height: 18em;
   color: white;
@@ -44,77 +52,7 @@ nav a:visited{
   font-size: 90%;
 }
 
-#scroll-box-container {
-  height: 100%;
-  width: 82.5em;
-  margin: auto;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  text-align: center;
-  transition: all 2s;
-}
-
-#hash-scroll-box {
-  float: left;
-  height: 100%;
-  width: 3010px;
-  overflow-y: hidden;
-  transition: all 2s;
-}
-
-.projectx-card {
-  height: 400px;
-  width: 300px;
-  float: left;
-  text-overflow: hidden;
-  word-wrap: break-word;
-  transition: all 0.8s ease-in-out;
-  background-size: 120%;
-  background-position: fill center;
-  background-repeat: no-repeat;
-  background-color: gray;
-  overflow: hidden;
-  position: relative;
-  display: block;
-}
-
-/* check this for transitions: http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/;
-
-.projectx-card:hover {
-  background-size: 125%;
-}
-
-.projectx-card-text {
-  width: 300px;
-  height: 100px;
-  padding: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -70px 0 0 -170px;
-  color: white;
-}
-
-.projectx-card-overlay {
-  display: none;
-  border: 1px solid black;
-  transition: .1s ease;
-  height: 400px;
-  width: 300px;
-  float: left;
-  text-overflow: hidden;
-  word-wrap: break-word;
-  transition: all 0.8s ease-in-out;
-  background-size: 110%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: gray;
-  overflow: hidden;
-  position: relative;
-}
-
-
-/* search box buttons */
+/* buttons in search box */
 .btn {
   color: #fff;
   cursor: pointer;
@@ -174,6 +112,95 @@ nav a:visited{
   transition: all 250ms linear;
 }
 
+/* end of buttons in search box */
+
+/* HASHSCROLL BOX IN HOMEPAGE */
+#scroll-box-container {
+  height: 100%;
+  width: 82.5em;
+  margin: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  transition: all 2s;
+}
+
+#hash-scroll-box {
+  float: left;
+  height: 100%;
+  width: 3010px;
+  overflow-y: hidden;
+  transition: all 2s;
+}
+
+.projectx-card {
+  height: 400px;
+  width: 300px;
+  float: left;
+  text-overflow: hidden;
+  word-wrap: break-word;
+  transition: all 0.8s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+/* check this for transitions:
+http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/
+
+.projectx-card:hover {
+  background-size: cover;
+}
+
+
+.projectx-card-overlay {
+  display: none;
+  border: 1px solid black;
+  transition: .1s ease;
+  height: 400px;
+  width: 300px;
+  float: left;
+  text-overflow: hidden;
+  word-wrap: break-word;
+  transition: all 0.8s ease-in-out;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  overflow: hidden;
+  position: relative;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+
+.projectx-card-text {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -170px;
+  color: white;
+  text-align: center;
+}
+
+.projectx-card-text-overlay {
+
+}
+
+.hashFooterBar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #E1332D;
+  color: white;
+}
+/* buttons for HashBoxFooter */
+
 .btn-hashfooter {
   float: right;
   cursor: pointer;
@@ -190,7 +217,7 @@ nav a:visited{
   background-color: white;
 }
 
-/* end of buttons */
+/* end of HashScrollBox */
 
 /* media queries */
 
@@ -203,10 +230,3 @@ nav a:visited{
   }
 }
 
-/* all footers */
-.hashFooterBar {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #E1332D;
-  color: white;
-}
