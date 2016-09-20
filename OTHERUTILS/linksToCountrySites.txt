@@ -3,17 +3,16 @@ npm install rss-to-json
 
 India
 -----------------
-https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms&num=50
+http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms
 
-https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://timesofindia.indiatimes.com/rssfeedstopstories.cms&num=50
 
 Other Countries
 -------------------
 Afganistan
-https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://www.pajhwok.com/en/nodequeue/1/feed&num=50
+http://www.pajhwok.com/en/nodequeue/1/feed
 
 Albania
-https://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://www.tiranatimes.com/?feed=rss2&num=50
+http://www.tiranatimes.com/?feed=rss2
 
 Algeria
 http://www.aps.dz/en/algeria?format=feed
