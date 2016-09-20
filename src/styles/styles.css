@@ -44,7 +44,7 @@ input{
 #search-box {
   height: 18em;
   color: white;
-  background-color: #E1332D;
+  background-color: #1a94c5;
 }
 
 #search-tags {
@@ -59,7 +59,7 @@ input{
   font-size: 13px;
   font-weight: 400;
   line-height: 45px;
-  margin: 0 auto 2em;
+  margin-bottom: 2em;
   max-width: 120px;
   position: relative;
   text-decoration: none;
@@ -93,24 +93,20 @@ input{
 }
 
 .btn-3 {
-  background: lighten(#E1332D, 3%);
-  border: 1px solid darken(#E1332D, 4%);
+  background: white;
+  color: #020d11;
+  border: 1px solid darken(#1a94c5, 4%);
   border-radius: 5px;
-  /*box-shadow: 0px 2px 0 darken(#E1332D, 5%), 2px 4px 6px darken(#E1332D, 2%);*/
   font-weight: 900;
   letter-spacing: 1px;
   transition: all 150ms linear;
 }
 
 .btn-3:hover {
-  /*background: darken(#E1332D, 1.5%);*/
-  background-color: #fff;
-  color: #000000;
-  border: 1px solid rgba(#000, .05);
+  background-color: #000202;
   box-shadow: 1px 1px 2px rgba(#fff, .2);
-  color: lighten(#E1332D, 18%);
+  color: darken(white, 22%);
   text-decoration: none;
-  /*text-shadow: -1px -1px 0 darken(#E1332D, 9.5%);*/
   transition: all 250ms linear;
 }
 
@@ -173,7 +169,7 @@ http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: gray;
+  background-color: #020d11;
   overflow: hidden;
   position: relative;
   font-size: 12px;
@@ -193,13 +189,16 @@ http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/
 }
 
 .projectx-card-text-overlay {
-  padding-top: 10px;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: darken(white, 20%);
 }
 
 .hashFooterBar {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #E1332D;
+  background-color: #1a94c5;
   color: white;
 }
 /* buttons for HashBoxFooter */
@@ -233,3 +232,17 @@ http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/
   }
 }
 
+/* Visual map */
+
+.map-box {
+  height: 603px;
+}
+
+.map-sidebar {
+  height: 100%;
+  background: #e3f4fb;
+}
+
+.map {
+  height: 100%;
+}

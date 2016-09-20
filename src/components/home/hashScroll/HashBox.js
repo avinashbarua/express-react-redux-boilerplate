@@ -45,7 +45,6 @@ class HashBox extends React.Component {
     const hashtags = this.props.hashtags;
     return (
       <div style={{textAlign: "center"}}>
-        <h1>into hashtags? got it!</h1>
         <div id="scroll-box-container">
           <HashScrollBox hashtags={hashtags} onShowtweets={this.popOverlay}/>
         </div>

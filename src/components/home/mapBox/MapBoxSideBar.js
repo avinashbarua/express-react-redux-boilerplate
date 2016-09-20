@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 
 const MapBoxSideBar = () => {
     return (
-      <div>
+      <div class="map-sidebar">
         I am the sidebar div
       </div>
     );

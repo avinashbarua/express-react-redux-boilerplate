@@ -17,12 +17,11 @@ class MapBox extends React.Component {
   render() {
     return (
       <div>
-        <h1>I am the Map Box, put grids inside me.</h1>
-        <div className="o-grid">
-          <div className="o-grid__cell o-grid__cell--width-20">
+        <div className="o-grid map-box">
+          <div className="o-grid__cell o-grid__cell--width-20 map-sidebar">
             <MapBoxSideBar/>
           </div>
-          <div className="o-grid__cell">
+          <div className="o-grid__cell map">
             <MapBoxMap/>
           </div>
         </div>
