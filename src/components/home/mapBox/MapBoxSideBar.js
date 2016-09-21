@@ -2,8 +2,8 @@ import React, {PropTypes} from 'react';
 
 const MapBoxSideBar = () => {
     return (
-      <div class="map-sidebar">
-        I am the sidebar div
+      <div>
+        I am the sidebar div. BG color not final, probably will be some shade of blue. Will depend on map colors. 
       </div>
     );
 };

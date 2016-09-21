@@ -10,8 +10,8 @@ const HashBoxFooter = ({scrollLeft, scrollRight }) => {
             <Link to="/hashtags"><div>LINK</div></Link>
           </div>
           <div className="o-grid__cell hashFooterBar">
-            <button className="btn-hashfooter" onClick={scrollLeft}>»</button>
-            <button className="btn-hashfooter" onClick={scrollRight}>«</button>
+            <button className="btn btn-3 btn-hashfooter" onClick={scrollLeft}>«</button>
+            <button className="btn btn-3 btn-hashfooter" onClick={scrollRight}>»</button>
           </div>
         </div>
       </div>
