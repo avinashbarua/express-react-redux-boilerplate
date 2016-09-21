@@ -1,11 +1,6 @@
 npm install rss-to-json
 
 
-India
------------------
-http://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms
-
-
 Other Countries
 -------------------
 Afganistan
@@ -40,3 +35,263 @@ http://en.mercopress.com/rss/argentina
 
 Armenia
 http://asbarez.com/feed/
+
+Aruba
+http://www.aruba.com/rss/news
+
+Australia
+http://www.abc.net.au/news/feed/51120/rss.xml
+
+Austria
+http://www.thelocal.at/feeds/rss.php
+
+Azerbaijan
+http://today.az/rss.php
+
+
+Bahamas
+http://www.thenassauguardian.com/component/content/category/3?format=feed&type=rss
+
+Bahrain (Rouge RSS)
+http://gulfnews.com/cmlink/1.446094 [NOT AVAILABLE]
+
+Bangladesh\
+Rouge
+
+Barbados
+http://www.barbadostoday.bb/feed/
+
+Belarus
+http://eng.belta.by/rss
+
+Belgium
+http://www.expatica.com/module/system/action/rss?type=1&ctr=48
+
+Belize
+http://www.breakingbelizenews.com/feed/
+
+Benin
+http://allafrica.com/tools/headlines/rdf/benin/headlines.rdf
+
+Bermuda
+http://www.royalgazette.com/section/?template=RSS
+
+Bhutan
+https://www.kuenselonline.com/feed/
+
+Bolivia
+[NOT FOUND]
+
+Bosnia and Herzegovina
+[NOT FOUND]
+
+Botswana
+http://allafrica.com/tools/headlines/rdf/botswana/headlines.rdf
+
+Brazil
+http://feeds.brazilnews.net/rss/24437442923341f1
+
+British Indian Ocean Territory
+http://www.islandsun.com/feed/
+
+Brunei Darussalam
+http://borneobulletin.com.bn/feed/
+
+Bulgaria
+http://www.bta.bg/en/rss/free
+
+Burkina Faso
+http://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf
+
+Burundi
+http://allafrica.com/tools/headlines/rdf/burundi/headlines.rdf
+
+Cambodia
+https://www.cambodiadaily.com/feed/
+
+Cameroon
+http://allafrica.com/tools/headlines/rdf/cameroon/headlines.rdf
+
+Canada
+http://www.cbc.ca/cmlink/rss-canada
+
+Cape Verde
+http://allafrica.com/tools/headlines/rdf/capeverde/headlines.rdf
+
+Central African Republic
+http://allafrica.com/tools/headlines/rdf/centralafricanrepublic/headlines.rdf
+
+Cayman Islands
+http://www.ieyenews.com/wordpress/feed/
+
+Chad
+http://allafrica.com/tools/headlines/rdf/chad/headlines.rdf
+
+Chile
+http://santiagotimes.cl/feed/
+
+China
+http://rss.shanghaidaily.com/Portal/mainSite/Handler.ashx?i=3
+
+Christmas Island
+[ NOT FOUND]
+
+Cocos Islands
+[NOT FOUND]
+
+Colombia
+http://todaycolombia.com/feed/
+
+Comoros
+http://allafrica.com/tools/headlines/rdf/comoros/headlines.rdf
+
+Congo
+http://allafrica.com/tools/headlines/rdf/congo_brazzaville/headlines.rdf
+
+DR Congo
+http://allafrica.com/tools/headlines/rdf/congo_kinshasa/headlines.rdf
+
+Cook Islands
+http://www.cookislandsnews.com/?format=feed&type=rss
+
+Costa Rica
+http://www.ticotimes.net/feed
+
+Cote d'Ivoire
+http://allafrica.com/tools/headlines/rdf/cotedivoire/headlines.rdf
+
+Croatia
+[NOT FOUND]
+
+Cuba
+http://english.juventudrebelde.cu/rss/all/cuba/
+
+Cyprus
+http://in-cyprus.com/feed/
+
+Czech Republic
+http://praguemonitor.com/rss/1+11+12+13+14+19+143/feed
+
+Denmark
+http://www.thelocal.dk/feeds/rss.php
+
+Djibouti
+http://allafrica.com/tools/headlines/rdf/djibouti/headlines.rdf
+
+Dominica
+http://www.dominicagazette.com/feed/
+
+Dominican Republic
+http://www.dominicanrepublicpost.com/feed/
+
+Ecuador
+http://www.ecuadortimes.net/feed/
+
+Egypt
+http://www.egyptindependent.com//rss-feed-term/113/rss.xml
+
+El Salvador
+[NOT FOUND]
+
+Equatorial Guinea
+http://allafrica.com/tools/headlines/rdf/equatorialguinea/headlines.rdf
+
+Eritrea
+http://allafrica.com/tools/headlines/rdf/eritrea/headlines.rdf
+
+Estonia
+http://news.postimees.ee/rss/
+
+Ethiopia
+http://allafrica.com/tools/headlines/rdf/ethiopia/headlines.rdf
+
+Falkland Islands
+http://en.mercopress.com/rss/falkland-islands
+
+Faeroe Islands
+[NOTFOUND]
+
+Fiji
+http://feeds.feedburner.com/fijitimes
+
+Finland
+http://www.helsinkitimes.fi/?format=feed&type=rss
+
+France
+http://www.france24.com/en/top-stories/rss
+
+French Guiana
+[NOt FOUND]
+
+French Polynesia
+[NOT FOUND]
+
+French Southern and Antarctic Lands
+[NOT FOUND]
+
+Gabon
+http://allafrica.com/tools/headlines/rdf/gabon/headlines.rdf
+
+Gambia
+http://allafrica.com/tools/headlines/rdf/gambia/headlines.rdf
+
+Germany
+http://www.thelocal.de/feeds/rss.php
+
+Georgia
+http://www.ajc.com/list/rss/news/local/news-georgia-and-region/aCxP/
+
+Ghana
+http://allafrica.com/tools/headlines/rdf/ghana/headlines.rdf
+
+Gibraltar
+http://chronicle.gi/feed/
+
+Greece
+http://greece.greekreporter.com/feed/
+
+Greenland
+[NOT FOUND]
+
+Grenada
+http://nowgrenada.com/feed/
+
+Guadeloupe
+[NOT FOUND]
+
+Guam
+https://mbjguam.com/feed/
+
+Guatemala
+[NOTFOUND]
+
+Guernsey
+http://guernseypress.com/feed/
+
+Guinea
+http://allafrica.com/tools/headlines/rdf/guinea/headlines.rdf
+
+Guinea Bissau
+http://allafrica.com/tools/headlines/rdf/guineabissau/headlines.rdf
+
+Guyana
+http://guyanachronicle.com/feed/
+
+Haiti
+http://www.miamiherald.com/news/nation-world/world/americas/haiti/?widgetName=rssfeed&widgetContentId=712015&getXmlFeed=true
+
+Honduras
+http://hondurasculturepolitics.blogspot.com/feeds/posts/default
+
+Hong Kong
+http://www.scmp.com/rss/2/feed
+
+Hungary
+http://bbj.hu/rss/rss.php
+
+Iceland
+http://icelandmonitor.mbl.is/rss/
+
+India
+http://www.thehindu.com/news/national/?service=rss
+
