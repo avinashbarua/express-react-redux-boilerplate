@@ -6,7 +6,7 @@ const HashCard = ({tag, tweet_volume, image, id, tweetTexts, onShow}) => {
       <div id={"cardfront"+id} className="projectx-card" style={{backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('+image+')'}}>
         <div className="projectx-card-text">
           <h3>{tag}</h3>
-          <p>{tweet_volume}s tweets</p>
+          <p>{tweet_volume} tweets</p>
           <button
             className="c-button c-button--rounded c-button--ghost c-button--xsmall"
             onClick={onShow}>Show Tweets
