@@ -40,4 +40,13 @@ export default HashContainer;
                     tweetTexts={hashtag.tweets}
                     onShow={onShowtweets}/>
         )}
+
+
+
+          <HashCard tag={hashtags[0].name}
+                    tweet_volume={hashtags[0].tweet_volume}
+                    image={hashtags[0].image}
+                    id={hashtags[0].id}
+                    tweetTexts={hashtags[0].tweets}
+                    onShow={onShowtweets}/>
 */

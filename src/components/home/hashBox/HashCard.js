@@ -15,15 +15,15 @@ const HashCard = ({tag, tweet_volume, image, id, tweetTexts, onShow}) => {
       </div>
       <div id={"cardback"+id} className="projectx-card-overlay">
         <div className="projectx-card-text-overlay">
-          {tweetTexts
-            .map((tweet) =>
-              <li key={tweet.id}><strong>@{tweet.user}</strong>:{tweet.text}</li>
-            )
-          }
-          <button
-            className="c-button c-button--rounded c-button--ghost c-button--xsmall"
-            onClick={onShow}>Go Back
-          </button>
+              {tweetTexts
+                .map((tweet) =>
+                  <li key={tweet.id}><strong>@{tweet.user}</strong>:{tweet.text}</li>
+                )
+              }
+              <button
+                className="c-button c-button--rounded c-button--ghost c-button--xsmall"
+                onClick={onShow}>Go Back
+              </button>
         </div>
       </div>
     </div>
@@ -40,3 +40,14 @@ HashCard.propTypes = {
 };
 
 export default HashCard;
+
+/*
+
+
+
+ptext
+
+
+
+
+*/

@@ -11,7 +11,7 @@ export function toggleHashCardSuccess(hashtags, id) {
 }
 
 export function fetchAllHashTags() {
-  const request = axios.get('http://localhost:5000/api/fuck');
+  const request = axios.get('http://192.168.1.3:5000/api/fuck');
   return (dispatch) => {
       request.then(({data}) => {
         dispatch(fetchAllHashTagsSuccess(data));

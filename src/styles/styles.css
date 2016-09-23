@@ -28,7 +28,18 @@ nav{
   box-shadow: none;
 }
 
-/* end of UNIVERSAL */
+.c-nav {
+  background-color: transparent;
+}
+
+
+.c-nav li {
+  background-color: transparent;
+}
+
+.c-nav__item:hover {
+  background-color: transparent;
+}
 
 /* utilities */
 .clear {
@@ -46,7 +57,6 @@ nav{
   float: left;
   text-overflow: hidden;
   word-wrap: break-word;
-  transition: all 0.8s ease-in-out;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,13 +64,11 @@ nav{
   overflow: hidden;
   position: relative;
   display: block;
-  margin: 0 12.5%;
 }
 
 .projectx-card-overlay {
   display: none;
   border: 1px solid black;
-  transition: .1s ease;
   height: 400px;
   width: 300px;
   float: left;

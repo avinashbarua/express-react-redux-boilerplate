@@ -35,10 +35,13 @@ class HashBox extends React.Component {
     return (
       <div className="o-grid o-grid--small-full o-grid--wrap hash-box contentOfSkew">
           <div className="o-grid__cell o-grid__cell--width-100">
+            <h1>#Hashtags?</h1>
+          </div>
+          <div className="o-grid__cell o-grid__cell--width-100">
             <HashContainer hashtags={hashtags} onShowtweets={this.popOverlay}/>
           </div>
           <div className="o-grid__cell o-grid__cell--width-100">
-            OK
+            this is call to action button
           </div>
       </div>
     );
