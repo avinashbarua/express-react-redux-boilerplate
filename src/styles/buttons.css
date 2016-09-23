@@ -1,0 +1,33 @@
+/* start da css for da buttons */
+.btn {
+  border: none;
+  text-align: center;
+  padding: 1.2vw 3vw 1vw;
+  border-radius: 0.2vw;
+  text-transform: uppercase;
+  margin: 1.9vw;
+  outline: none;
+  cursor: pointer;
+  transition: all .15s;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #55acee;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+
+@media screen and (min-width: 80em) {
+  .button {
+    font-size: .6em;
+  }
+  .btn {
+    margin: 0.09vw;
+  }
+}

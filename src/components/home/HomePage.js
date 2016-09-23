@@ -12,10 +12,11 @@ class HomePage extends React.Component {
         <div className="o-grid__cell o-grid__cell--width-100 skewed-bg">
           <SearchBox/>
         </div>
-        <div className="o-grid__cell o-grid__cell--width-100 skewed-bg red">
+        <div className="o-grid__cell o-grid__cell--width-100 skewed-bg skewed-mid">
           <MapBox/>
         </div>
         <div className="o-grid__cell o-grid__cell--width-100 skewed-bg">
+          <HashBox/>
         </div>
       </div>
     );

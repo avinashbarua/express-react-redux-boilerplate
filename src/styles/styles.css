@@ -39,7 +39,7 @@ nav{
 
 /* HOMEPAGE */
 
-/* HASHSCROLL BOX IN HOMEPAGE */
+/* HASHSCROLL BOX IN HOMEPAGE
 #scroll-box-container {
   height: 100%;
   width: 100%;
@@ -53,11 +53,7 @@ nav{
 #hash-scroll-box {
   float: left;
   height: 100%;
-  //width: 3010px;
-  width: 100%;
-  overflow-y: hidden;
-  transition: all 2s;
-}
+}*/
 
 .projectx-card {
   height: 400px;

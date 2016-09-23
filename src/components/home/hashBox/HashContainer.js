@@ -3,9 +3,9 @@ import React, {PropTypes} from 'react';
 // import components
 import HashCard from './HashCard';
 
-const HashScrollBox = ({hashtags, onShowtweets}) => {
+const HashContainer = ({hashtags, onShowtweets}) => {
     return (
-      <div id="hash-scroll-box">
+      <div className="hash-container">
         {hashtags.map(hashtag =>
           <HashCard key={hashtag.id}
                     tag={hashtag.name}
@@ -20,10 +20,10 @@ const HashScrollBox = ({hashtags, onShowtweets}) => {
 };
 
 
-HashScrollBox.propTypes = {
+HashContainer.propTypes = {
   hashtags: PropTypes.array.isRequired,
   onShowtweets: PropTypes.func.isRequired
 };
 
 
-export default HashScrollBox;
+export default HashContainer;

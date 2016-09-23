@@ -17,11 +17,11 @@ class MapBox extends React.Component {
   render() {
     return (
       <div>
-        <div className="o-grid map-box contentOfSkew">
-          <div className="o-grid__cell o-grid__cell--width-20 map-sidebar">
+        <div className="o-grid o-grid--small-full o-grid--wrap map-box contentOfSkew">
+          <div className="o-grid__cell o-grid__cell--width-30">
             <MapBoxSideBar/>
           </div>
-          <div className="o-grid__cell map">
+          <div className="o-grid__cell o-grid__cell--width-70">
             <MapBoxMap/>
           </div>
         </div>

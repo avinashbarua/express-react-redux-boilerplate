@@ -8,6 +8,7 @@ import '../node_modules/blaze/dist/blaze.min.css';
 import '../node_modules/blaze/dist/blaze.animations.min.css';
 import './styles/styles.css';
 import './styles/homepage.css';
+import './styles/buttons.css';
 import configureStore from './store/configureStore.dev';
 
 import {fetchAllHashTags} from './actions/hashActions';

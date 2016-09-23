@@ -1,5 +1,5 @@
+/* skewed background */
 .skewed-bg {
-  background: #00B285;
   padding: 200px 0;
   -webkit-transform: skew(0deg, -10deg);
   transform: skew(0deg, -10deg);
@@ -9,8 +9,10 @@
   background: linear-gradient(to left, #00d2ff , #3a7bd5);
 }
 
-.skewed-bg.red {
+.skewed-bg.skewed-mid {
   background: #e3e3e3;
+  padding-top: 3em;
+  height: 100%;
 }
 
 .skewed-bg .contentOfSkew {
@@ -19,20 +21,7 @@
   text-align: center;
 }
 
-/* Visual map */
-
-.map-box {
-  background: #e3f4fb;
-  color: black;
-}
-
-.map-sidebar {
-}
-
-.map {
-}
-
-/*SEARCH BOX IN HOMEPAGE */
+/* search box */
 #search-box {
   height: 18em;
   color: white;
@@ -78,6 +67,49 @@
   color: #7f8c8d;
   border: none;
 }
+
+
+/*
+#search-box .news-stripe {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 7em;
+  border: 1px solid red;
+}
+*/
+
+/* map box */
+
+.map-box {
+  color: black;
+  height: 23em;
+}
+
+.map-sidebar {
+  padding-bottom: 1em;
+  text-align: justify;
+}
+
+.map-viz {
+  padding: 0;
+}
+
+.map-viz img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 0;
+}
+
+/* hashtag box */
+.hash-box{
+  text-align: center;
+  background-color: red;
+}
+.hash-container {
+  background-color: red;
+  margin: 0 auto;
+}
+
 
 /* media queries */
 

@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import * as hashActions from '../../../actions/hashActions';
 
 // import components
-import HashScrollBox from './HashScrollBox';
+import HashContainer from './HashContainer';
 import HashBoxFooter from './HashBoxFooter';
 
 class HashBox extends React.Component {
@@ -44,11 +44,13 @@ class HashBox extends React.Component {
   render() {
     const hashtags = this.props.hashtags;
     return (
-      <div style={{textAlign: "center"}}>
-        <div id="scroll-box-container">
-          <HashScrollBox hashtags={hashtags} onShowtweets={this.popOverlay}/>
-        </div>
-        <HashBoxFooter scrollLeft={this.scrollLeft} scrollRight={this.scrollRight}/>
+      <div className="o-grid o-grid--small-full o-grid--wrap hash-box contentOfSkew">
+          <div className="o-grid__cell o-grid__cell--width-100">
+            <HashContainer hashtags={hashtags} onShowtweets={this.popOverlay}/>
+          </div>
+          <div className="o-grid__cell o-grid__cell--width-100">
+            OK
+          </div>
       </div>
     );
   }

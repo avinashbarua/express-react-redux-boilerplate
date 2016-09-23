@@ -7,11 +7,15 @@ import SearchTags from './SearchTags';
 class SearchBox extends React.Component {
   render() {
     return (
-      <div className="contentOfSkew" id="search-box">
-        <div>
-          <SearchTags/>
-          search the news
-          <SearchInput/>
+      <div id="search-box">
+        <div className="contentOfSkew">
+          <div>
+            <SearchTags/>
+            search the news
+            <SearchInput/>
+            <p>tagline goes here</p>
+            <button href="#" className="btn blue">just take me to the news</button>
+          </div>
         </div>
       </div>
     );
@@ -21,3 +25,10 @@ class SearchBox extends React.Component {
 
 
 export default SearchBox;
+
+/*
+news stripe sample
+        <div className="news-stripe">
+          I am some more text here okay bro? I am adding some more and more text for the test!
+        </div>
+*/
