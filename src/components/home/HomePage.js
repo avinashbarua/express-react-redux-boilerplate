@@ -4,6 +4,7 @@ import React from 'react';
 import SearchBox from './searchBox/SearchBox';
 import HashBox from './hashBox/HashBox';
 import MapBox from './mapBox/MapBox';
+import NewsBox from './newsBox/NewsBox';
 
 class HomePage extends React.Component {
   render(){
@@ -19,7 +20,7 @@ class HomePage extends React.Component {
           <HashBox/>
         </div>
         <div className="o-grid__cell o-grid__cell--width-100 skewed-bg skewed-mid">
-          Latest News
+          <NewsBox/>
         </div>
       </div>
     );

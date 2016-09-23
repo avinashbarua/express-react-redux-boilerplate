@@ -45,65 +45,32 @@ nav{
 .clear {
     clear: both;
 }
-/* end utilities */
+/* utilities */
 
-
-/* HOMEPAGE */
-
-
-.projectx-card {
-  height: 400px;
-  width: 300px;
-  float: left;
-  text-overflow: hidden;
-  word-wrap: break-word;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: gray;
-  overflow: hidden;
-  position: relative;
-  display: block;
-}
-
-.projectx-card-overlay {
-  display: none;
-  border: 1px solid black;
-  height: 400px;
-  width: 300px;
-  float: left;
-  text-overflow: hidden;
-  word-wrap: break-word;
-  transition: all 0.8s ease-in-out;
-  background-size: 110%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #020d11;
-  overflow: hidden;
-  position: relative;
-  font-size: 12px;
-  overflow-y: scroll;
-}
-
-.projectx-card-text {
-  width: 300px;
-  height: 100px;
-  padding: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -70px 0 0 -170px;
+.footer-div {
+  padding-top: 8em;
+  background-color: #2c3e50;
   color: white;
   text-align: center;
 }
 
-.projectx-card-text-overlay {
-  padding-top: 13px;
-  padding-left: 13px;
-  padding-right: 13px;
-  color: darken(white, 20%);
+.menu-toggle a{
+  display: none;
 }
 
 
 /* media queries */
 
+@media screen and (max-width: 700px) {
+
+  .footer-div {
+    padding-top: 3em;
+  }
+  .menu-toggle a{
+    display: inline-block;
+  }
+  .menu-item a{
+    display: none;
+  }
+
+}

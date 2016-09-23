@@ -14,7 +14,7 @@ class SearchBox extends React.Component {
             search the news
             <SearchInput/>
             <p>tagline goes here</p>
-            <button href="#" className="btn blue">just take me to the news</button>
+            <button href="#news-box" className="btn blue">just take me to the news</button>
           </div>
         </div>
       </div>

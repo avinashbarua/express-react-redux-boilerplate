@@ -5,7 +5,6 @@ import * as hashActions from '../../../actions/hashActions';
 
 // import components
 import HashContainer from './HashContainer';
-import HashBoxFooter from './HashBoxFooter';
 
 class HashBox extends React.Component {
   constructor(props,context) {
@@ -33,15 +32,15 @@ class HashBox extends React.Component {
   render() {
     const hashtags = this.props.hashtags;
     return (
-      <div className="o-grid o-grid--small-full o-grid--wrap hash-box contentOfSkew">
-          <div className="o-grid__cell o-grid__cell--width-100">
-            <h1>#Hashtags?</h1>
+      <div className="hash-box contentOfSkew">
+          <div className="hash-box-section">
+            <h1>#hashtags?</h1>
           </div>
-          <div className="o-grid__cell o-grid__cell--width-100">
+          <div className="hash-box-section">
             <HashContainer hashtags={hashtags} onShowtweets={this.popOverlay}/>
           </div>
-          <div className="o-grid__cell o-grid__cell--width-100">
-            this is call to action button
+          <div className="hash-box-section">
+            <button href="#" className="btn blue">Checkout all the Hashtags</button>
           </div>
       </div>
     );
@@ -67,3 +66,18 @@ function mapDispatchToProps(dispatch) {
 
 
 export default connect(mapStateToProps, mapDispatchToProps)(HashBox);
+
+
+/*
+
+      <div className="o-grid o-grid--small-full o-grid--wrap hash-box contentOfSkew">
+          <div className="o-grid__cell o-grid__cell--width-100">
+            <HashContainer hashtags={hashtags} onShowtweets={this.popOverlay}/>
+          </div>
+          <div className="o-grid__cell">
+          <button href="#" className="btn blue">Checkout all visualizations</button>
+          </div>
+      </div>
+
+
+*/

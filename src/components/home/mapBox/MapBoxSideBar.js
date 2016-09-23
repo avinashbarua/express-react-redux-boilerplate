@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react';
 const MapBoxSideBar = () => {
     return (
       <div className="map-sidebar">
-        <h3>Every news deserves to be visualized</h3>
+        <h1>visualize every news</h1>
         <p>
         Lorem Ipsum is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,

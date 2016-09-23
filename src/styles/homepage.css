@@ -92,6 +92,8 @@
 
 .map-sidebar {
   padding-bottom: 1em;
+}
+.map-sidebar p {
   text-align: justify;
 }
 
@@ -108,20 +110,79 @@
 /* hashtag box */
 .hash-box{
   text-align: center;
-  height: 70em;
+  height: 77em;
 }
 .hash-container {
   margin: 0 auto;
+
 }
-.hash-container .o-grid__cell {
+.hash-card {
+  top: 0;
   padding: 0;
   flex: 0;
   margin: 0 auto;
+  background-color: pink;
 }
-.hash-card {
+.hash-box-section {
+  padding-top: 1em;
 }
-.mobile-hash {
+
+.projectx-card {
+  height: 400px;
+  width: 300px;
+  float: left;
+  text-overflow: hidden;
+  word-wrap: break-word;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.projectx-card-overlay {
   display: none;
+  border: 1px solid black;
+  height: 400px;
+  width: 300px;
+  float: left;
+  text-overflow: hidden;
+  word-wrap: break-word;
+  transition: all 0.8s ease-in-out;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #020d11;
+  overflow: hidden;
+  position: relative;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+
+.projectx-card-text {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -170px;
+  color: white;
+  text-align: center;
+}
+
+.projectx-card-text-overlay {
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: darken(white, 20%);
+}
+
+/* news box */
+.news-box {
+  padding-top: 0;
 }
 
 
@@ -145,23 +206,17 @@
     font-size: 17px;
   }
 
-  .hash-card {
-  }
-
-
-  .hash-container .o-grid__cell {
-  }
-
   .projectx-card {
     width: 100%;
     height: 100px;
   }
 
-  .hash-box {
-    height: 70em;
-  }
   .map-box {
     height: 30em;
+  }
+
+  .news-box {
+
   }
 
 }
