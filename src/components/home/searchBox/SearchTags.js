@@ -4,7 +4,19 @@ import {Link} from 'react-router';
 const SearchTags = () => {
   return (
     <div id="search-tags">
-      <p>Get all of the news. here.</p>
+      <div className="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full">
+        <div className="o-grid__cell">first</div>
+        <div className="o-grid__cell">second</div>
+        <div className="o-grid__cell">third</div>
+      </div>
+    </div>
+  );
+};
+
+export default SearchTags;
+
+
+/*
       <Link to="/topics">
       <button className="btn btn-3">TOPICS</button>
       </Link>
@@ -14,8 +26,4 @@ const SearchTags = () => {
       <Link to="/hashtags">
       <button className="btn btn-3">HASHTAGS</button>
       </Link>
-    </div>
-  );
-};
-
-export default SearchTags;
+*/

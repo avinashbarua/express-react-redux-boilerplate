@@ -32,7 +32,7 @@ const HashCard = ({tag, tweet_volume, image, id, tweetTexts, onShow}) => {
 
 HashCard.propTypes = {
   tag: PropTypes.string.isRequired,
-  tweet_volume: PropTypes.number.isRequired,
+  tweet_volume: PropTypes.number,
   image: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
   onShow: PropTypes.func.isRequired,
