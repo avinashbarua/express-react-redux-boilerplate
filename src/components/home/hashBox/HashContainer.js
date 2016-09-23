@@ -5,7 +5,7 @@ import HashCard from './HashCard';
 
 const HashContainer = ({hashtags, onShowtweets}) => {
     return (
-      <div className="hash-container">
+      <div className="hash-container o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full o-grid--wrap">
         {hashtags.map(hashtag =>
           <HashCard key={hashtag.id}
                     tag={hashtag.name}
@@ -27,3 +27,17 @@ HashContainer.propTypes = {
 
 
 export default HashContainer;
+
+
+
+/*
+        {hashtags.map(hashtag =>
+          <HashCard key={hashtag.id}
+                    tag={hashtag.name}
+                    tweet_volume={hashtag.tweet_volume}
+                    image={hashtag.image}
+                    id={hashtag.id}
+                    tweetTexts={hashtag.tweets}
+                    onShow={onShowtweets}/>
+        )}
+*/

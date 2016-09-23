@@ -103,11 +103,14 @@
 /* hashtag box */
 .hash-box{
   text-align: center;
-  background-color: red;
 }
 .hash-container {
-  background-color: red;
   margin: 0 auto;
+}
+.hash-box .o-grid__cell {
+  padding: 0;
+}
+.hash-card {
 }
 
 

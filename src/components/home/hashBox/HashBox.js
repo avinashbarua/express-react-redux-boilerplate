@@ -11,18 +11,7 @@ class HashBox extends React.Component {
   constructor(props,context) {
     super(props,context);
     this.state = {};
-    this.scrollLeft = this.scrollLeft.bind(this);
-    this.scrollRight = this.scrollRight.bind(this);
     this.popOverlay = this.popOverlay.bind(this);
-  }
-
-  scrollLeft() {
-    let scrollDiv = document.getElementById('scroll-box-container');
-    scrollDiv.scrollLeft +=300;
-  }
-  scrollRight() {
-    let scrollDiv = document.getElementById('scroll-box-container');
-    scrollDiv.scrollLeft -=300;
   }
 
   popOverlay(event) {

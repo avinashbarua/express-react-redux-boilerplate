@@ -39,21 +39,6 @@ nav{
 
 /* HOMEPAGE */
 
-/* HASHSCROLL BOX IN HOMEPAGE
-#scroll-box-container {
-  height: 100%;
-  width: 100%;
-  margin: auto;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  text-align: center;
-  transition: all 2s;
-}
-
-#hash-scroll-box {
-  float: left;
-  height: 100%;
-}*/
 
 .projectx-card {
   height: 400px;
@@ -69,15 +54,8 @@ nav{
   overflow: hidden;
   position: relative;
   display: block;
+  margin: 0 12.5%;
 }
-
-/* check this for transitions:
-http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/
-
-.projectx-card:hover {
-  background-size: cover;
-}
-
 
 .projectx-card-overlay {
   display: none;
@@ -118,45 +96,6 @@ http://stackoverflow.com/questions/3331353/transitions-on-the-display-property*/
   color: darken(white, 20%);
 }
 
-.hashFooterBar {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #1a94c5;
-  color: white;
-}
-/* buttons for HashBoxFooter */
-
-/*.btn-hashfooter {
-  float: right;
-  cursor: pointer;
-  height: 2em;
-  width: 2em;
-  margin: 0 10px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  //overflow bug fix
-  opacity: .99;
-  border-radius: 28%;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .05);
-  background-color: white;
-}*/
-
-.btn-hashfooter {
-  max-width: 40px;
-  height: 40px;
-}
-
-/* end of HashScrollBox */
 
 /* media queries */
-
-@media screen and (max-width: 700px) {
-  #hash-scroll-box {
-    display: none;
-  }
-  #scroll-box-container {
-    display: none;
-  }
-}
 
