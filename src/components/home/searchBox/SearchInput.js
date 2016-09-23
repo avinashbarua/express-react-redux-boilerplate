@@ -2,8 +2,9 @@ import React from 'react';
 
 const SearchInput = () => {
   return (
-    <div>
-      <input placeholder="Search News" className="c-field c-field--small"/>
+    <div id="search-input">
+      <input type="text"/>
+      <button type="submit">O</button>
     </div>
   );
 };

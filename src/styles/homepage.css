@@ -31,3 +31,71 @@
 
 .map {
 }
+
+/*SEARCH BOX IN HOMEPAGE */
+#search-box {
+  height: 18em;
+  color: white;
+}
+
+#search-tags {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 90%;
+}
+
+#search-tags a {
+  font-size: 3em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-right: 0.5em;
+}
+
+#search-tags a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+#search-input{
+  padding-top: 1em;
+}
+
+#search-input input{
+  height: 40px;
+  width: 400px;
+  border-radius: 0.2em 0em 0em 0.2em;
+  font-size: 25px;
+  padding-left: 1em;
+  color: #7f8c8d;
+  text-decoration: none;
+  border: none;
+}
+
+#search-input button{
+  height: 40px;
+  width: 40px;
+  border-radius: 0em 0.2em 0.2em 0em;
+  font-size: 25px;
+  color: #7f8c8d;
+  border: none;
+}
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+  #search-tags a {
+    font-size: 2em;
+  }
+
+  #search-input input{
+    width: 280px;
+    font-size: 17px;
+    color: #7f8c8d;
+    text-decoration: none;
+    border: none;
+  }
+
+  #search-input button{
+    border-radius: 0em 0.2em 0.2em 0em;
+    font-size: 17px;
+  }
+}

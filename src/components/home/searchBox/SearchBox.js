@@ -10,6 +10,7 @@ class SearchBox extends React.Component {
       <div className="contentOfSkew" id="search-box">
         <div>
           <SearchTags/>
+          search the news
           <SearchInput/>
         </div>
       </div>
