@@ -60,6 +60,33 @@ nav{
   display: block !important;
 }
 
+/* skewed background */
+.skewed-bg {
+  padding: 200px 0;
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  margin-top: -200px;
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00d2ff , #3a7bd5);
+}
+
+.skewed-bg.skewed-mid {
+  background: #e3e3e3;
+  padding-top: 3em;
+  height: 100%;
+}
+
+.skewed-bg .contentOfSkew {
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  text-align: center;
+}
+
+
+.skewed-bg.skewed-pad-100 {
+  padding: 10px 0;
+}
 
 
 /* media queries */
