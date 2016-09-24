@@ -8,7 +8,7 @@ class SearchBox extends React.Component {
   render() {
     return (
       <div id="search-box">
-        <div className="contentOfSkew">
+        <div className="contentOfSkew centered">
           <div>
             <SearchTags/>
             search the news
