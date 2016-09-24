@@ -54,9 +54,19 @@ nav{
   text-align: center;
 }
 
-.menu-toggle a{
-  display: none;
+.menu-toggle{
+  /*visibility: hidden;*/
+  float: left;
+  display: block !important;
 }
+
+
+.menu-toggle{
+  /*visibility: hidden;*/
+  float: right;
+  display: block !important;
+}
+
 
 
 /* media queries */
@@ -66,11 +76,14 @@ nav{
   .footer-div {
     padding-top: 3em;
   }
-  .menu-toggle a{
-    display: inline-block;
-  }
-  .menu-item a{
-    display: none;
+
+  .menu-toggle {
+    visibility: visible;
   }
 
+  .menu-item {
+    /*display: none !important;*/
+    visibility: hidden;
+    transition: all 2s ease-in-out;
+  }
 }

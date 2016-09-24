@@ -6,10 +6,11 @@ const Header = ({toggle}) => {
     <nav>
       <ul className="c-nav c-nav--inline a-nav">
         <li className="c-nav__item">
-            <IndexLink to="/" activeClassName="active">Logo</IndexLink>
+            <a className="menu-toggle" href="#" onClick={toggle}>X</a>
+            <a className="menu-toggla" href="#" onClick={toggle}>Y</a>
         </li>
-        <li className="c-nav__item c-nav__item--right menu-toggle">
-            <a href="#" onClick={toggle}>X</a>
+        <li className="c-nav__item c-nav__item--right menu-item">
+            <IndexLink to="/" activeClassName="active">Logo</IndexLink>
         </li>
         <li className="c-nav__item c-nav__item--right menu-item">
             <Link to="/signup" activeClassName="active">SignUp/LogIn</Link>
