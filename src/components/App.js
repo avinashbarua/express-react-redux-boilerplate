@@ -7,24 +7,21 @@ class App extends React.Component {
     super(props,context);
     this.state = {
       menuToggle : false
-    }
+    };
     this.navBarToggle = this.navBarToggle.bind(this);
   }
   navBarToggle(event) {
     event.preventDefault();
     this.setState({menuToggle: !this.state.menuToggle});
-    console.log(this.state.menuToggle);
-    let navUl = document.querySelector('ul.c-nav');
     let navLi = document.querySelectorAll('.menu-item');
     Array.prototype.forEach.call(navLi,(li) => {
-      if(this.state.menuToggle){
-        li.style.visibility = 'hidden';
+      if(!this.state.menuToggle){
+        li.style.display = 'none';
       }
       else {
-        li.style.visibility = 'visible';
+        li.style.display = 'block';
       }
     });
-    navUl.classList.toggle("c-nav--inline");
   }
 
   render(){
