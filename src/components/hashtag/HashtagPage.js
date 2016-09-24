@@ -1,7 +1,8 @@
 import React from 'react';
 
 // importcomponents
-import HashtagHeader from './HashtagHeader';
+import HashtagHeader from './HashtagPageHeader';
+import HashtagPageContainer from './HashtagPageContainer';
 
 class HashtagPage extends React.Component {
   render(){
@@ -11,7 +12,7 @@ class HashtagPage extends React.Component {
           <HashtagHeader/>
         </div>
         <div className="o-grid__cell o-grid__cell--width-100 skewed-bg skewed-mid">
-          <h1>OK</h1>
+          <HashtagPageContainer/>
         </div>
       </div>
     );
