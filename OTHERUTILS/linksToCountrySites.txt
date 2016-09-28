@@ -24,7 +24,8 @@ var news = rss.items.map(function(item){return {title:item.title,url:item.url,da
 10 items
 
 AndorrA
-??
+https://news.google.com/news?q=Andorra&output=rss
+
 
 Angola
 http://allafrica.com/tools/headlines/rdf/angola/headlines.rdf
