@@ -1,5 +1,6 @@
 [{
         "name": "Donald Trump",
+        "id": 0,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -58,6 +59,8 @@
     },
     {
         "name": "Rodrigo Duterte",
+        "id":1,
+        
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -116,6 +119,7 @@
     },
     {
         "name": "Taiwan",
+        "id":2,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -174,6 +178,7 @@
     },
     {
         "name": "FARC",
+        "id":3,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -232,6 +237,7 @@
     },
     {
         "name": "Baghdad",
+        "id":4,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -290,6 +296,7 @@
     },
     {
         "name": "Saudi Arabia",
+        "id":5,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -348,6 +355,7 @@
     },
     {
         "name": "Afghanistan",
+        "id":6,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -406,6 +414,7 @@
     },
     {
         "name": "Paris",
+        "id":7,
         "type": "topic",
         "toggle": false,
         "tweets": [
@@ -461,628 +470,5 @@
             }
         ],
         "image": "http://pbs.twimg.com/media/CtYhW0TXYAA2Yfj.jpg"
-    },
-    {
-        "name": "Mosul",
-        "type": "topic",
-        "toggle": false,
-        "tweets": [
-            {
-                "id": 780512564228653000,
-                "text": "Pentagon: IS could use mustard gas to defend Mosul https://t.co/02gqnL1Tsf https://t.co/vkhdKnNNcl",
-                "user": "FRANCE24"
-            },
-            {
-                "id": 780176323616448500,
-                "text": "In battle for #Iraq’s Mosul, many forces with many motives https://t.co/nr5dMjp5nB https://t.co/Fk9AuY5Dhk",
-                "user": "AlArabiya_Eng"
-            },
-            {
-                "id": 779999748979888100,
-                "text": "In battle for #Iraq’s #Mosul, many forces with many motives https://t.co/nr5dMj7uw3 https://t.co/HtcaTNwvfq",
-                "user": "AlArabiya_Eng"
-            },
-            {
-                "id": 779817318067023900,
-                "text": "RT @sidhubaba: As the Kurds prepare for the campaign to take back Mosul, they know the fight with Iraq remains. via @DefenseBaron https://t…",
-                "user": "TheAtlantic"
-            },
-            {
-                "id": 779765988946567200,
-                "text": "In a blast from Iraq wars past, oil fires could jeopardize mission to retake Mosul from Islamic State https://t.co/wZexhwkF9Y",
-                "user": "chicagotribune"
-            },
-            {
-                "id": 779763358622941200,
-                "text": "As Iraqi forces prepare to take on ISIS, aid workers say they’re ill-equipped for fleeing civilians.… https://t.co/424CfSspmV",
-                "user": "NewYorker"
-            },
-            {
-                "id": 779713694599184400,
-                "text": "After ISIS, Iraq will face demands for Kurdish independence https://t.co/IEtOzoZnFW https://t.co/4rrJSGkj3m",
-                "user": "TheAtlantic"
-            },
-            {
-                "id": 779664931675316200,
-                "text": "Oil fires set by Islamic State could jeopardize mission to retake Mosul https://t.co/wZexhwkF9Y https://t.co/YBU0ANz0Ur",
-                "user": "chicagotribune"
-            },
-            {
-                "id": 779649147997655000,
-                "text": "RT @csdickey: On the Front Lines Approaching the ISIS-Occupied Metropolis of Mosul https://t.co/fjzNHc4vzA via @thedailybeast",
-                "user": "thedailybeast"
-            },
-            {
-                "id": 779643863124303900,
-                "text": "RAF commander on fighting ISIS as jets head to Mosul\nhttps://t.co/lqGHumrkow https://t.co/WAwfzHfh9Q",
-                "user": "DailyMailUK"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtTwCiXUEAEbs3N.jpg"
-    },
-    {
-        "name": "Nepal",
-        "type": "topic",
-        "toggle": false,
-        "tweets": [
-            {
-                "id": 780747208022958100,
-                "text": "At least 14 dead after bus plunges 980ft down mountain in Nepal https://t.co/S51MEdrGnB https://t.co/9oRu6OC4b2",
-                "user": "itvnews"
-            },
-            {
-                "id": 780732470757060600,
-                "text": "At least 14 people killed after bus fell some 60 meters down the highway in Dhading, a district bordering… https://t.co/KzIF8cjzOG",
-                "user": "PDChina"
-            },
-            {
-                "id": 780696199561039900,
-                "text": "At least 14 killed, 7 seriously injured after bus falls 60 meters from highway in Dhading, central #Nepal (Xinhua)",
-                "user": "cctvnews"
-            },
-            {
-                "id": 780693491840061400,
-                "text": "At least 14 killed as crowded bus slips off mountain road https://t.co/bqxkuC1e3W https://t.co/0qYNHKVM8I",
-                "user": "TheSun"
-            },
-            {
-                "id": 780684622904590300,
-                "text": "First Chinese-built power station in #Nepal goes into operation on Mon https://t.co/4meHJFnZOw https://t.co/hN3tbWz0Jc",
-                "user": "PDChina"
-            },
-            {
-                "id": 780405778024923100,
-                "text": "Lucky escape for 29 passengers and crew after plane overshoots runway in Nepal https://t.co/GV9CMq6GYo",
-                "user": "MailOnline"
-            },
-            {
-                "id": 779890395819937800,
-                "text": "In Pic: #Pakistan Fair \"Made in Pakistan Exhibition\" held in #Kathmandu, #Nepal, Sept. 24. https://t.co/1B826UtVTu",
-                "user": "PDChina"
-            },
-            {
-                "id": 779187855545491500,
-                "text": "RT @AFPSouthAsia: Landslide in Nepal kills three Nepali guides and a Spanish trekker https://t.co/gMA1jTFyEs",
-                "user": "AFP"
-            },
-            {
-                "id": 778885801958596600,
-                "text": "Meet the 69-year-old man in Nepal who walks 3 hours a day as he tries to finish high school https://t.co/4S2sdbWJ05 https://t.co/c5CXbl23rK",
-                "user": "HuffingtonPost"
-            },
-            {
-                "id": 777986927769350100,
-                "text": "[GALLERY] After the passing of his wife, Durga Kami of Nepal, 68, enrolled in the tenth grade. https://t.co/TjVx6gO3Hq",
-                "user": "ForeignAffairs"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtXFbiTWgAAquKQ.jpg"
-    },
-    {
-        "name": "Pakistan",
-        "type": "topic",
-        "toggle": false,
-        "tweets": [
-            {
-                "id": 780862903721205800,
-                "text": "India pulls out of key summit in Pakistan: govt https://t.co/yX8jSPERDZ https://t.co/1Dz4uWBesk",
-                "user": "FRANCE24"
-            },
-            {
-                "id": 780862113459953700,
-                "text": "India has one of the world's biggest armies. Why doesn't it use it? https://t.co/r3H8iElkFT https://t.co/cYy0oo2CTf",
-                "user": "latimes"
-            },
-            {
-                "id": 780813170420121600,
-                "text": "India tells Pakistan to abandon its dream of obtaining territory in Jammu and Kashmir https://t.co/H7WQC3Gk4e",
-                "user": "SkyNews"
-            },
-            {
-                "id": 780802059050291200,
-                "text": "Pakistan police 'illegally execute hundreds of people each year', report alleges https://t.co/QrW0aFjhqH",
-                "user": "Independent"
-            },
-            {
-                "id": 780783804122267600,
-                "text": "Journalist trying to sue over CIA drone strike that killed his son https://t.co/L1UZxX9SWL",
-                "user": "Independent"
-            },
-            {
-                "id": 780765291403939800,
-                "text": "Even if Indians are angry at Pakistan today, they won’t necessarily be when they go to the polls. https://t.co/vXRWU03K0m",
-                "user": "ForeignAffairs"
-            },
-            {
-                "id": 780748162176806900,
-                "text": "India tells Pakistan to 'abandon its dream' of obtaining Kashmir  https://t.co/P6inaP4TbR",
-                "user": "SkyNews"
-            },
-            {
-                "id": 780711571362287600,
-                "text": "#Pakistan denounces #Indian #UN speech as ‘litany of falsehoods’ https://t.co/KkQomR2veF https://t.co/mK68qLZkcz",
-                "user": "AlArabiya_Eng"
-            },
-            {
-                "id": 780701014038949900,
-                "text": "India must use everything from cutting-edge tech to plain old fencing to seal its border with Pakistan https://t.co/SlKa1FXviU",
-                "user": "qz"
-            },
-            {
-                "id": 780640706721411100,
-                "text": "A restrained use of force could signal lack of Indian resolve, thereby emboldening the Pakistani military. https://t.co/mceQ5IC9CW",
-                "user": "ForeignAffairs"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtYuq9NUIAAq1NK.jpg"
-    },
-    {
-        "name": "Sam Allardyce",
-        "type": "topic",
-        "toggle": false,
-        "tweets": [
-            {
-                "id": 780886759794155500,
-                "text": "Big Sam's now sorry, embarrassed, full of regret... and out of his dream job https://t.co/xGhgnEMxDp https://t.co/tvfbYOHeZu",
-                "user": "DailyMirror"
-            },
-            {
-                "id": 780885675717427200,
-                "text": "NOW on #newsnight: Adam Parsons on Sam Allardyce's departure from role as England manager  https://t.co/xPw2FAnR4Z",
-                "user": "BBCNewsnight"
-            },
-            {
-                "id": 780884724474605600,
-                "text": "Sam Allardyce speaks out for the first time since losing England job https://t.co/GA0zf16K0e https://t.co/RyJQJvYwgE",
-                "user": "TheSun"
-            },
-            {
-                "id": 780883596714319900,
-                "text": "Tomorrow's front page: Brought down by his own greed #tomorrowspaperstoday https://t.co/akwzdtVTZP https://t.co/hzcp80eDHE",
-                "user": "DailyMirror"
-            },
-            {
-                "id": 780883081498681300,
-                "text": "‘The world will be laughing at us’ – Rio Ferdinand’s damming verdict after Sam Allardyce leaves job as England boss\n https://t.co/K0EXQVM0OP",
-                "user": "standardnews"
-            },
-            {
-                "id": 780882463111385100,
-                "text": "Tomorrow's front page.. FIRED MAN SAM..  #tomorrowspaperstoday https://t.co/aC9epJW6F4 https://t.co/YGfq3ljbGG",
-                "user": "TheSun"
-            },
-            {
-                "id": 780879042857799700,
-                "text": "Let’s all sit back and reflect on Sam #Allardyce’s career as #England boss https://t.co/qEQ1X9eJFH",
-                "user": "SkyNews"
-            },
-            {
-                "id": 780878099017789400,
-                "text": "Arrogant clot, for sure, but did this really merit England ditching Allardyce? https://t.co/ICZLjAz1r9 via @guardian_sport",
-                "user": "guardian"
-            },
-            {
-                "id": 780875971792662500,
-                "text": "RT @standardsport: 📹Wenger and Howe back on FA’s radar after inevitable Allardyce exit | @JamesOlley asseses an England team in turmoil htt…",
-                "user": "standardnews"
-            },
-            {
-                "id": 780874665472368600,
-                "text": "FA chief explains decision to part ways with 'inappropriate' ex-England boss Allardyce\nhttps://t.co/cPQGwauemw https://t.co/BYBuKGo4Nc",
-                "user": "Daily_Express"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtZEXFhWAAA3Dvz.jpg"
-    },
-    {
-        "name": "Elon Musk",
-        "type": "topic",
-        "toggle": false,
-        "tweets": [
-            {
-                "id": 780891775128965100,
-                "text": "Elon Musk outlines plans for manned missions to Mars in roughly the next decade https://t.co/Scfykvejz4 🔓",
-                "user": "WSJ"
-            },
-            {
-                "id": 780890637033934800,
-                "text": "SpaceX's Elon Musk lays out his plan to put humans on Mars https://t.co/Ny9bZLA0vd https://t.co/EKeRdmKztU",
-                "user": "CNN"
-            },
-            {
-                "id": 780889789121851400,
-                "text": "Elon Musk outlines plans to put humans on Mars: https://t.co/rRV8SDvYRP https://t.co/6OuAOHoxFo",
-                "user": "ReutersBiz"
-            },
-            {
-                "id": 780888839577538600,
-                "text": "Elon Musk plans to get humans to Mars in six years https://t.co/ExkGchoRwX",
-                "user": "guardian"
-            },
-            {
-                "id": 780888048888406000,
-                "text": "RT @carolyncerbin: SpaceX's Elon Musk unveils Mars rocket concept. \nhttps://t.co/fzOFsRR4Uv\nPhoto: SpaceX https://t.co/r3Mk7ZX0QV",
-                "user": "USATODAY"
-            },
-            {
-                "id": 780882422816706600,
-                "text": "Breaking: SpaceX chief Elon Musk wants to send humans to Mars in about 10 years for $200,000 per passenger https://t.co/SpdHWNSciD 🔓",
-                "user": "WSJ"
-            },
-            {
-                "id": 780881644337201200,
-                "text": "This Russian entrepreneur wants to join the space race, challenging Elon Musk and Jeff Bezos https://t.co/1etK4jzgHS https://t.co/AjxxQNZTpy",
-                "user": "business"
-            },
-            {
-                "id": 780878178940248000,
-                "text": "Elon Musk’s boldest announcement yet https://t.co/O3yoCcRrli https://t.co/HQreJBh3GV",
-                "user": "TheAtlantic"
-            },
-            {
-                "id": 780872160516726800,
-                "text": "Elon Musk unveils plan to colonize Mars https://t.co/G0lOJ3ZyiG",
-                "user": "TIME"
-            },
-            {
-                "id": 780872143873667100,
-                "text": "Elon Musk promises 'fun' trip to Mars colony https://t.co/HOisa4ZbOz",
-                "user": "AFP"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtZH5RRWcAQiMwN.jpg"
-    },
-    {
-        "name": "WhatsApp",
-        "type": "topic",
-        "toggle": false,
-        "tweets": [
-            {
-                "id": 780883969751461900,
-                "text": "WhatsApp added some creepy new terms. Germany just banned them    https://t.co/VoJwJac1zE",
-                "user": "Independent"
-            },
-            {
-                "id": 780853769873395700,
-                "text": "WhatsApp added some creepy new terms. Germany just banned them   https://t.co/VoJwJac1zE",
-                "user": "Independent"
-            },
-            {
-                "id": 780849293573980200,
-                "text": "Germany orders Facebook to stop collecting WhatsApp user data https://t.co/mRhij1jMiF @gretelkauffman https://t.co/mt6lUKQn9J",
-                "user": "csmonitor"
-            },
-            {
-                "id": 780835177471828000,
-                "text": "Germany orders Facebook to stop collecting data on WhatsApp users https://t.co/Vd0nUrWz7t via @cnbctech",
-                "user": "CNBC"
-            },
-            {
-                "id": 780829373435871200,
-                "text": "German regulators have banned Facebook from collecting WhatsApp user data: https://t.co/SW6zphjozf https://t.co/Hj9HSJfhQC",
-                "user": "Forbes"
-            },
-            {
-                "id": 780822620753145900,
-                "text": "Facebook ordered to stop harvesting data on WhatsApp users in Germany https://t.co/5plLZ3WYae by @riptari",
-                "user": "TechCrunch"
-            },
-            {
-                "id": 780819039971004400,
-                "text": "WhatsApp added some creepy new terms. Germany just banned them https://t.co/VoJwJac1zE",
-                "user": "Independent"
-            },
-            {
-                "id": 780815279106494500,
-                "text": "German regulator orders Facebook to stop collecting WhatsApp user data https://t.co/y1noEer556 🔓",
-                "user": "WSJ"
-            },
-            {
-                "id": 780806504018485200,
-                "text": "Germany bans Facebook-WhatsApp data share https://t.co/yH2fAxbjv4",
-                "user": "FinancialTimes"
-            },
-            {
-                "id": 780797454333730800,
-                "text": "RT @lfeldman: Must-reads for entrepreneurs: Should you start your business in New Orleans or California? https://t.co/72YNl4kWy6 https://t.…",
-                "user": "Forbes"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtYiSwvWgAArigB.jpg"
-    },
-    {
-        "name": "Dortmund",
-        "tweet_volume": 188048,
-        "toggle": false,
-        "type": "hashtag",
-        "tweets": [
-            {
-                "id": 780885479415771100,
-                "text": "Real Madrid and Cristiano Ronaldo denied by Borussia Dortmund https://t.co/TY7M9MWZHv https://t.co/zIGcgKYP7y",
-                "user": "CNN"
-            },
-            {
-                "id": 780768971377274900,
-                "text": "Teams of the week from around Europe this week: https://t.co/oD7a46TQ6r https://t.co/uhgjD7NoB3",
-                "user": "guardian"
-            },
-            {
-                "id": 780749058319278100,
-                "text": "Champions League previews: the matches to watch this week https://t.co/7ojB6jgmxR via @guardian_sport",
-                "user": "guardian"
-            },
-            {
-                "id": 780744744267841500,
-                "text": "Champions League previews: the matches to watch this week https://t.co/oD7a46TQ6r By @WhoScored https://t.co/RzMOoS73k0",
-                "user": "guardian"
-            },
-            {
-                "id": 780481353967996900,
-                "text": "Tuchel relishing Dortmund's Real showdown https://t.co/ehmLKVbIJH https://t.co/qsjFdBFfFg",
-                "user": "FRANCE24"
-            },
-            {
-                "id": 780395580937740300,
-                "text": "Disgruntled Ronaldo eyes more records at Dortmund https://t.co/LH0urUFNy0 https://t.co/XGXoV1i1g0",
-                "user": "FRANCE24"
-            },
-            {
-                "id": 780226750395453400,
-                "text": "Madrid face Dortmund Champions League rematch, Leicester host Porto https://t.co/glzV3WIk8O https://t.co/cjw3rrDw4X",
-                "user": "FRANCE24"
-            },
-            {
-                "id": 780119415253786600,
-                "text": "RT @TheSunFootball: Aubameyang reveals he \"made a promise\" to his dying grandfather to move to Euro giants https://t.co/uxLUsUcvrG https://…",
-                "user": "TheSun"
-            },
-            {
-                "id": 779607378174042100,
-                "text": "#Dortmund beat #Freiburg 3-1 to join #Bayern on https://t.co/IR60PmChRF https://t.co/u1LPQhX5V6",
-                "user": "AlArabiya_Eng"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtZDNDbWgAAGt5_.jpg"
-    },
-    {
-        "name": "Elon Musk",
-        "tweet_volume": 49178,
-        "toggle": false,
-        "type": "hashtag",
-        "tweets": [
-            {
-                "id": 780891775128965100,
-                "text": "Elon Musk outlines plans for manned missions to Mars in roughly the next decade https://t.co/Scfykvejz4 🔓",
-                "user": "WSJ"
-            },
-            {
-                "id": 780890637033934800,
-                "text": "SpaceX's Elon Musk lays out his plan to put humans on Mars https://t.co/Ny9bZLA0vd https://t.co/EKeRdmKztU",
-                "user": "CNN"
-            },
-            {
-                "id": 780889789121851400,
-                "text": "Elon Musk outlines plans to put humans on Mars: https://t.co/rRV8SDvYRP https://t.co/6OuAOHoxFo",
-                "user": "ReutersBiz"
-            },
-            {
-                "id": 780888839577538600,
-                "text": "Elon Musk plans to get humans to Mars in six years https://t.co/ExkGchoRwX",
-                "user": "guardian"
-            },
-            {
-                "id": 780888048888406000,
-                "text": "RT @carolyncerbin: SpaceX's Elon Musk unveils Mars rocket concept. \nhttps://t.co/fzOFsRR4Uv\nPhoto: SpaceX https://t.co/r3Mk7ZX0QV",
-                "user": "USATODAY"
-            },
-            {
-                "id": 780882422816706600,
-                "text": "Breaking: SpaceX chief Elon Musk wants to send humans to Mars in about 10 years for $200,000 per passenger https://t.co/SpdHWNSciD 🔓",
-                "user": "WSJ"
-            },
-            {
-                "id": 780881644337201200,
-                "text": "This Russian entrepreneur wants to join the space race, challenging Elon Musk and Jeff Bezos https://t.co/1etK4jzgHS https://t.co/AjxxQNZTpy",
-                "user": "business"
-            },
-            {
-                "id": 780878178940248000,
-                "text": "Elon Musk’s boldest announcement yet https://t.co/O3yoCcRrli https://t.co/HQreJBh3GV",
-                "user": "TheAtlantic"
-            },
-            {
-                "id": 780872160516726800,
-                "text": "Elon Musk unveils plan to colonize Mars https://t.co/G0lOJ3ZyiG",
-                "user": "TIME"
-            },
-            {
-                "id": 780872143873667100,
-                "text": "Elon Musk promises 'fun' trip to Mars colony https://t.co/HOisa4ZbOz",
-                "user": "AFP"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtZH5RRWcAQiMwN.jpg"
-    },
-    {
-        "name": "England",
-        "tweet_volume": 287354,
-        "toggle": false,
-        "type": "hashtag",
-        "tweets": [
-            {
-                "id": 780887636533665800,
-                "text": "Sol Campbell's fmr agent on #Allardyce: Sad another England manager gone, but third party ownership important issue https://t.co/5GKXN5TFAK",
-                "user": "BBCNewsnight"
-            },
-            {
-                "id": 780885675717427200,
-                "text": "NOW on #newsnight: Adam Parsons on Sam Allardyce's departure from role as England manager  https://t.co/xPw2FAnR4Z",
-                "user": "BBCNewsnight"
-            },
-            {
-                "id": 780885243372802000,
-                "text": "Bank of England begins corporate debt purchases https://t.co/kdua26tGhL https://t.co/FHZe3YidIu",
-                "user": "FRANCE24"
-            },
-            {
-                "id": 780884724474605600,
-                "text": "Sam Allardyce speaks out for the first time since losing England job https://t.co/GA0zf16K0e https://t.co/RyJQJvYwgE",
-                "user": "TheSun"
-            },
-            {
-                "id": 780883081498681300,
-                "text": "‘The world will be laughing at us’ – Rio Ferdinand’s damming verdict after Sam Allardyce leaves job as England boss\n https://t.co/K0EXQVM0OP",
-                "user": "standardnews"
-            },
-            {
-                "id": 780879469229838300,
-                "text": "Wednesday's Times:\nHumiliation for England as Allardyce steps down\n#tomorrowspaperstoday #bbcpapers https://t.co/Drj70GXsNF",
-                "user": "suttonnick"
-            },
-            {
-                "id": 780879042857799700,
-                "text": "Let’s all sit back and reflect on Sam #Allardyce’s career as #England boss https://t.co/qEQ1X9eJFH",
-                "user": "SkyNews"
-            },
-            {
-                "id": 780878521304580100,
-                "text": "TIMES FRONT PAGE: 'Humiliation for England as Allardyce steps down' #skypapers https://t.co/duqjNy4eHd",
-                "user": "SkyNews"
-            },
-            {
-                "id": 780878099017789400,
-                "text": "Arrogant clot, for sure, but did this really merit England ditching Allardyce? https://t.co/ICZLjAz1r9 via @guardian_sport",
-                "user": "guardian"
-            },
-            {
-                "id": 780877526600212500,
-                "text": "England oppose sharing Twickenham cash with southern hemisphere sides https://t.co/QiroCQHGWv via @guardian_sport",
-                "user": "guardian"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtZC_RuUIAAVB88.jpg"
-    },
-    {
-        "name": "Slimani",
-        "tweet_volume": 34045,
-        "toggle": false,
-        "type": "hashtag",
-        "tweets": [
-            {
-                "id": 780876961279246300,
-                "text": "RT @tomwfootball: Leicester's 'Dragon Slayer' strikes again as Islam Slimani cuts down Porto - report from the King Power @AFP  https://t.c…",
-                "user": "AFP"
-            },
-            {
-                "id": 780701055722090500,
-                "text": "RT @IndyFootball: Claudio Ranieri takes tips from 'dragon slayer' Islam Slimani for Champions League clash with Porto https://t.co/UT92XMzQ…",
-                "user": "Independent"
-            },
-            {
-                "id": 780231436372541400,
-                "text": "Leicester City's Slimani back to torment Porto https://t.co/8EC3Z8GhOe https://t.co/CTTmWmYqKS",
-                "user": "FRANCE24"
-            }
-        ],
-        "image": "http://pbs.twimg.com/media/CtPwWr1UIAIFPX-.jpg"
-    },
-    {
-        "name": "#NationalVoterRegistrationDay",
-        "tweet_volume": 73985,
-        "toggle": false,
-        "type": "hashtag",
-        "tweets": [
-            {
-                "id": 780889862383800300,
-                "text": "Don't just talk the talk. Register to vote now: https://t.co/FLgSQeoeoj #OurVoteCounts #NationalVoterRegistrationDay https://t.co/gwMLl3vwJK",
-                "user": "voguemagazine"
-            },
-            {
-                "id": 780886016051843100,
-                "text": "From Square to Snapchat, tech companies are looking to simplify voter registration https://t.co/7VBhJRe45F… https://t.co/MVOQpQOH4G",
-                "user": "NBCNews"
-            },
-            {
-                "id": 780869646236934100,
-                "text": "How to register to vote https://t.co/UjCzC7GNTY #NationalVoterRegistrationDay https://t.co/F151epxO3H",
-                "user": "NBCNewYork"
-            },
-            {
-                "id": 780867653791543300,
-                "text": "Here's how to register for your civic duty on #NationalVoterRegistrationDay https://t.co/mWgySSab1D https://t.co/fZ3dMn9oV0",
-                "user": "nbcchicago"
-            },
-            {
-                "id": 780861614216081400,
-                "text": "Voter registration emerges as key political flash-point https://t.co/ZGGokcDGgH #NationalVoterRegistrationDay https://t.co/xk4VjuARsI",
-                "user": "NBCNews"
-            },
-            {
-                "id": 780859749650821100,
-                "text": "The most important thing you will do this fall is vote. Register now: https://t.co/RXp1zQnnEP #OurVoteCounts… https://t.co/DjYN02eFzR",
-                "user": "voguemagazine"
-            },
-            {
-                "id": 780853096935223300,
-                "text": "Today is #NationalVoterRegistrationDay — are you #registered? Here's how: https://t.co/srZLKUz4JY https://t.co/VuSGjvT8HX",
-                "user": "CNNPolitics"
-            },
-            {
-                "id": 780833542288842800,
-                "text": "It's #NationalVoterRegistrationDay! To see if you're registered in Illinois, click here: https://t.co/TbAzVcYJRP https://t.co/xbpFYCS8S1",
-                "user": "WGNNews"
-            },
-            {
-                "id": 780825164032380900,
-                "text": "Hillary Clinton speaks in Raleigh, N.C., on #NationalVoterRegistrationDay: There's still time to get registered https://t.co/R9BDNdId6V",
-                "user": "CNNPolitics"
-            },
-            {
-                "id": 780815017725849600,
-                "text": "Take part in #NationalVoterRegistrationDay and register to vote right here: https://t.co/4mkKMyZYw3 #OurVoteCounts",
-                "user": "voguemagazine"
-            }
-        ],
-        "image": "http://pbs.twimg.com/ext_tw_video_thumb/780889771421884417/pu/img/9MSfx8PsFa8Z1gcU.jpg"
-    },
-    {
-        "name": "#TrumpAFact",
-        "tweet_volume": 18634,
-        "toggle": false,
-        "type": "hashtag",
-        "tweets": [
-            {
-                "id": 780889526910660600,
-                "text": "\"The record shows that I'm right.\" When it came to the Iraq War last night, he was not. #TrumpAFact https://t.co/HB9bAtmNx7",
-                "user": "USATODAY"
-            },
-            {
-                "id": 780880640304635900,
-                "text": "Trump wasn't completely wrong when he said Ford is heading to Mexico, but the company isn't cutting U.S. jobs in th… https://t.co/cWdjfeFNuT",
-                "user": "USATODAY"
-            }
-        ],
-        "image": "http://pbs.twimg.com/amplify_video_thumb/780878548152225792/img/XZJkgiEeE-cwlKeN.jpg"
     }
 ]
-

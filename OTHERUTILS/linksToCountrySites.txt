@@ -5,15 +5,23 @@ Other Countries
 -------------------
 Afganistan
 http://www.pajhwok.com/en/nodequeue/1/feed
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+15 items
 
 Albania
 http://www.tiranatimes.com/?feed=rss2
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 Algeria
 http://www.aps.dz/en/algeria?format=feed
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 American Samoa
 http://www.savalinews.com/feed/
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 AndorrA
 ??
