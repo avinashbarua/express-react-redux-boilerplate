@@ -17,7 +17,7 @@ class MapBox extends React.Component {
   render() {
     return (
       <div>
-        <div className="o-grid o-grid--small-full o-grid--wrap map-box contentOfSkew">
+        <div className="o-grid o-grid--small-full o-grid--wrap map-box contentOfSkew centered">
           <div className="o-grid__cell o-grid__cell--width-30">
             <MapBoxSideBar/>
           </div>

@@ -5,30 +5,49 @@ Other Countries
 -------------------
 Afganistan
 http://www.pajhwok.com/en/nodequeue/1/feed
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+15 items
 
 Albania
 http://www.tiranatimes.com/?feed=rss2
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 Algeria
 http://www.aps.dz/en/algeria?format=feed
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 American Samoa
 http://www.savalinews.com/feed/
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 AndorrA
-??
+https://news.google.com/news?q=Andorra&output=rss
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
+
 
 Angola
 http://allafrica.com/tools/headlines/rdf/angola/headlines.rdf
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+30 items
 
 Anguilla
 http://theanguillian.com/feed/
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+20 items
 
 Antarctica
 https://news.google.com/news?q=Antarctica&output=rss
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 Antigua and Barbuda
 http://antiguaobserver.com/category/news/regional_news/feed/
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 Argentina
 http://en.mercopress.com/rss/argentina
@@ -295,3 +314,409 @@ http://icelandmonitor.mbl.is/rss/
 India
 http://www.thehindu.com/news/national/?service=rss
 
+Indonesia
+http://feeds.indonesianews.net/rss/f9295dc05093c851
+
+Iran
+http://www.iranfocus.com/en/index.php?format=feed&type=rss
+
+Iraq
+http://www.iraqinews.com/comments/feed/
+
+Ireland
+http://www.irishtimes.com/cmlink/news-1.1319192
+
+Isle of Man
+http://www.iomtoday.co.im/cmlink/1.6899
+
+Israel
+http://www.timesofisrael.com/feed/
+
+Italy
+http://www.thelocal.it/feeds/rss.php
+
+Jamaica
+http://www.jamaicaobserver.com/rss/news/
+
+Japan
+http://www.japantoday.com/feed
+
+Jordan
+http://www.jordantimes.com/rss.xml
+
+Kazakhstan
+http://feeds.kazakhstannews.net/rss/929bcf2071e81801
+
+Kenya
+http://www.kenyan-post.com/feeds/posts/default?alt=rss
+
+Kosovo
+http://www.rferl.org/rss/?count=50&zoneid=679
+
+Kuwait
+http://www.248am.com/feed/
+
+Kyrgyzstan
+http://feeds.kyrgyzstannews.net/rss/929bcf2071e81801
+
+Laos
+http://feeds.laosnews.net/rss/a6670896145a3ae3
+
+Latvia
+http://feeds.feedburner.com/TheBalticTimesNews
+
+Lebanon
+http://www.naharnet.com/tags/lebanon/en/feed.atom
+
+Lesotho
+http://lestimes.com/feed/
+
+Liberia
+http://allafrica.com/tools/headlines/rdf/liberia/headlines.rdf
+
+Libya
+http://www.libyaherald.com/feed/
+
+Lithuania
+[NOT FOUND]
+
+Luxembourg
+http://www.wort.lu/rss/en
+
+Macau
+http://macaudailytimes.com.mo/feed
+
+Macedonia
+http://www.balkaninsight.com/en/rss/macedonia-latest-headlines
+
+Madagascar
+[NOT FOUND]
+
+Martinique
+[NOT FOUND]
+
+Malawi
+http://www.nyasatimes.com/feed/
+
+Malaysia
+http://thestar.com.my/rss/nation.xml
+
+Maldives
+http://maldivesindependent.com/feed
+
+Mali
+http://allafrica.com/tools/headlines/rdf/mali/headlines.rdf
+
+Malta
+http://www.timesofmalta.com/rss
+
+Marshall Islands
+[NOT FOUND]
+
+Mauritania
+[USE GOOGFLE NEWS]
+
+Mauritius
+http://allafrica.com/tools/headlines/rdf/mauritius/headlines.rdf
+
+Mayotte
+[GOOGLE NEWS]
+
+Mexico
+http://topics.nytimes.com/top/news/international/countriesandterritories/mexico/?inline=nyt-geo&rss=1
+
+Micronesia
+[GOOGLE NEWS]
+
+Moldova
+http://www.topix.com/rss/world/moldova
+
+Monaco
+http://www.monacolife.net/?feed=rss2
+
+Mongolia
+http://www.topix.com/rss/world/mongolia
+
+Montenegro
+[GOOGLE NEWS]
+
+Montserrat
+https://www.themontserratreporter.com/?feed=rss2&preview=1&template=default&stylesheet=default
+
+Morocco
+http://www.moroccoworldnews.com/feed/
+
+Mozambique
+http://www.topix.com/rss/world/mozambique
+
+Myanmar
+http://www.irrawaddy.com/feed
+
+Namibia
+http://www.topix.com/rss/world/namibia
+
+nauru
+[no news]
+
+Nepal
+http://www.topix.net/rss/world/nepal.xml
+
+Netherlands
+http://www.dutchnews.nl/feed/
+
+New Caledonia
+http://news.google.com/news?hl=en&gl=us&q=new%20Caledonia&um=1&ie=UTF-8&output=rss
+
+New Zealand
+http://syndication.apn.co.nz/rss/uttm.xml
+
+Nicaragua
+[NOT FOUND]
+
+Niger
+http://allafrica.com/tools/headlines/rdf/niger/headlines.rdf
+
+Nigeria
+http://www.vanguardngr.com/feed/
+
+Norfolk Island
+http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/england/norfolk/rss.xml
+
+North Korea
+http://feeds.feedburner.com/Nknewsorg
+
+Northern Mariana Islands
+http://www.saipantribune.com/index.php/feed/
+
+Norway
+http://feeds.feedburner.com/newsinenglish/AzQS
+
+Oman
+http://www.muscatdaily.com/rss/feed/Muscat_Daily_Oman_News
+
+Pakistan
+http://www.pakistantoday.com.pk/feed/
+
+Palau
+[NOT FOUND]
+
+Palestine
+[Not found]
+
+Panama
+[not found]
+
+Papua New Guinea
+http://www.topix.com/rss/world/papua-new-guinea
+
+Paraguay
+[Google news]
+
+Peru
+http://www.peruthisweek.com/rss
+
+Philippines
+http://www.inquirer.net/fullfeed
+
+Pitcairn
+[google news]
+
+Poland
+http://www.topix.com/rss/world/poland
+
+Portugal
+http://news.google.com/news?hl=en&gl=us&q=portugal&um=1&ie=UTF-8&output=rss
+
+Puerto Rico
+http://www.topix.net/rss/world/puerto-rico.xml
+
+Qatar
+http://dohanews.co/feed/
+
+Romania
+http://feeds.feedburner.com/Romania-Insider
+
+Russia
+http://rbth.com/xml/index.xml
+
+Rwanda
+http://www.focus.rw/wp/feed/
+
+Saint Kitts and Nevis
+http://www.myvuenews.com/index.php?format=feed&type=rss
+
+Saint Lucia
+http://stluciatimes.com/feed
+
+Saint Helena
+http://www.sainthelena.gov.sh/feed/
+
+Saint Pierre and Miquelon
+[Not found]
+
+Saint Vincent and the Grenadines
+https://www.news784.com/feed/
+
+Samoa
+http://www.savalinews.com/feed/
+
+San Marino
+[google]
+
+Sao Tome and Principe
+http://allafrica.com/tools/headlines/rdf/saotomeandprincipe/headlines.rdf
+
+Saudi Arabia
+http://www.arabnews.com/cat/1/rss.xml
+
+Senegal
+http://allafrica.com/tools/headlines/rdf/senegal/headlines.rdf
+
+Serbia
+http://www.b92.net/info/rss/news.xml
+
+Seychelles
+http://allafrica.com/tools/headlines/rdf/seychelles/headlines.rdf
+
+Sierra Leone
+http://www.topix.com/rss/world/sierra-leone
+
+Singapore
+https://news.google.com.sg/news/section?cf=all&pz=1&ned=en_sg&output=rss
+
+Sint Maarten
+[google]
+
+Slovakia
+http://feeds.feedburner.com/thedailysk
+
+Slovenia
+http://www.sloveniatimes.com/rss?category_id=1
+
+Solomon Islands
+http://www.solomontimes.com/rss/latest-news.xml
+
+Somalia
+http://allafrica.com/tools/headlines/rdf/somalia/headlines.rdf
+
+South Africa
+http://southafricatoday.net/feed/
+
+South Korea
+http://www.topix.com/rss/world/south-korea.xml
+
+South Sudan
+http://allafrica.com/tools/headlines/rdf/southsudan/headlines.rdf
+
+Spain
+https://www.thelocal.es/feeds/rss.php
+
+Sudan
+http://allafrica.com/tools/headlines/rdf/sudan/headlines.rdf
+
+Sri Lanka
+http://www.adaderana.lk/rss.php
+
+Suriname
+[google news]
+
+Svalbard and Jan Mayen Islands
+[googel]
+
+Swaziland
+http://www.times.co.sz/feed/index.rss
+
+Sweden
+http://www.thelocal.se/RSS/theLocal.xml
+
+Switzerland
+http://www.thelocal.ch/feeds/rss.php
+
+Syria
+http://www.guardian.co.uk/world/syria/rss
+
+Taiwan
+http://feeds.feedburner.com/rsscna/engnews
+
+Tajikistan
+http://www.topix.com/rss/world/tajikistan
+
+Tanzania
+http://allafrica.com/tools/headlines/rdf/tanzania/headlines.rdf
+
+Thailand
+http://www.bangkokpost.com/rss/data/most-recent.xml
+
+Timor Leste
+
+Togo
+http://allafrica.com/tools/headlines/rdf/togo/headlines.rdf
+
+Tonga
+http://www.topix.com/rss/world/tonga
+
+Trinidad and Tobago
+[google]
+
+Tunisia
+http://allafrica.com/tools/headlines/rdf/tunisia/headlines.rdf
+
+Turkey
+http://www.hurriyetdailynews.com/rss.php
+
+Turkmenistan
+http://www.rferl.org/rss/?count=50&zoneid=669
+
+Turks and Caicos Islands
+google
+
+Tuvalu
+google
+
+Uganda
+http://allafrica.com/tools/headlines/rdf/uganda/headlines.rdf
+
+Ukraine
+http://www.rferl.org/rss/?count=50&zoneid=670
+
+United Arab Emirates
+http://www.topix.com/rss/world/united-arab-emirates
+
+United Kingdom
+https://www.theguardian.com/uk/rss
+
+United States
+http://www.guardian.co.uk/world/usa/rss
+
+United States Virgin Islands
+google news
+
+Uruguay
+google
+
+Uzbekistan
+http://www.rferl.org/rss/?count=50&zoneid=671
+
+Vanuatu
+https://vanuatudaily.wordpress.com/feed/
+
+Venezuela
+https://news.google.com/news?hl=en&gl=us&q=venezuela&um=1&ie=UTF-8&output=rss
+
+Vietnam
+http://www.topix.com/rss/world/vietnam
+
+Wallis and Futuna Islands
+google
+
+Western Sahara
+http://allafrica.com/tools/headlines/rdf/westernsahara/headlines.rdf
+
+Yemen
+http://www.sabanews.net/en/rss.php
+
+Zambia
+http://allafrica.com/tools/headlines/rdf/zambia/headlines.rdf
+
+Zimbabwe
+https://www.newsday.co.zw/feed/

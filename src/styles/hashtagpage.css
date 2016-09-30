@@ -2,8 +2,32 @@
   background: #ecf0f1;
 }
 
+<<<<<<< HEAD
 @media screen and (min-height: 1080px) {
 	.skewed-bg {
 		height: 100%;
 	}
 }
+=======
+.hashtag-container-header h2 {
+  display: inline;
+  font-size: 3em;
+}
+
+.hashtag-container-header .date {
+  display: block;
+}
+
+.calendar-button {
+  display: inline;
+  float: right;
+  background: #ecf0f1;
+  color: black;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3em;
+  margin: 0.5em 0 0.5em 0;
+}
+>>>>>>> a47539de27b47d7f920c03a44634cfe2e1f7676f
