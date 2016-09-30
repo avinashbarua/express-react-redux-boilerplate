@@ -10,6 +10,7 @@ import './styles/styles.css';
 import './styles/buttons.css';
 import './styles/homepage.css';
 import './styles/hashtagpage.css';
+import './styles/animate.css';
 import configureStore from './store/configureStore.dev';
 
 import {fetchAllHashTags} from './actions/hashActions';

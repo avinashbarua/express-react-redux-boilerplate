@@ -40,7 +40,7 @@ class HashBox extends React.Component {
             <HashContainer hashtags={hashtags} onShowtweets={this.popOverlay}/>
           </div>
           <div className="hash-box-section">
-            <button href="#" className="btn blue">Checkout all the Hashtags</button>
+            <button href="#" className="btn yellow">Checkout all the Hashtags</button>
           </div>
       </div>
     );

@@ -1,6 +1,7 @@
 /* global css */
- body {
-  font-family: 'Open Sans Condensed', sans-serif;
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
   color: black;
 }
@@ -29,6 +30,8 @@ nav{
 }
 
 .c-nav {
+  font-family: Roboto;
+  font-weight: 300;
   background-color: transparent;
 }
 
@@ -121,4 +124,3 @@ nav{
   }
 
 }
- /*test*/

@@ -10,7 +10,7 @@ const MapBoxSideBar = () => {
         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ip
         </p>
-        <button href="#" className="btn blue">Checkout all visualizations</button>
+        <button href="#" className="btn yellow yellow-exception">Checkout all visualizations</button>
       </div>
     );
 };
