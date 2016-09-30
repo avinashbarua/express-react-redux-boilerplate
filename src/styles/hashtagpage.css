@@ -2,3 +2,24 @@
   background: #ecf0f1;
 }
 
+.hashtag-container-header h2 {
+  display: inline;
+  font-size: 3em;
+}
+
+.hashtag-container-header .date {
+  display: block;
+}
+
+.calendar-button {
+  display: inline;
+  float: right;
+  background: #ecf0f1;
+  color: black;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3em;
+  margin: 0.5em 0 0.5em 0;
+}

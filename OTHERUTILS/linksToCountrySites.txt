@@ -25,19 +25,29 @@ var news = rss.items.map(function(item){return {title:item.title,url:item.url,da
 
 AndorrA
 https://news.google.com/news?q=Andorra&output=rss
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 
 Angola
 http://allafrica.com/tools/headlines/rdf/angola/headlines.rdf
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+30 items
 
 Anguilla
 http://theanguillian.com/feed/
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+20 items
 
 Antarctica
 https://news.google.com/news?q=Antarctica&output=rss
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 Antigua and Barbuda
 http://antiguaobserver.com/category/news/regional_news/feed/
+var news = rss.items.map(function(item){return {title:item.title,url:item.url,date:item.created}});
+10 items
 
 Argentina
 http://en.mercopress.com/rss/argentina
