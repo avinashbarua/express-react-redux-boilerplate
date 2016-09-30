@@ -1,5 +1,7 @@
 import React, {PropTypes} from 'react';
 
+import HashCardBackTweetBox from './HashCardBackTweetBox';
+
 const HashCard = ({tag, tweet_volume, image, id, tweetTexts, onShow}) => {
   return (
     <div className="o-grid__cell o-grid__cell--width-25 hash-card">
@@ -17,7 +19,7 @@ const HashCard = ({tag, tweet_volume, image, id, tweetTexts, onShow}) => {
         <div className="projectx-card-text-overlay">
               {tweetTexts
                 .map((tweet) =>
-                  <li key={tweet.id}><strong>@{tweet.user}</strong>:{tweet.text}</li>
+                  <HashCardBackTweetBox key={tweet.id} user={tweet.user} text={tweet.text}/>
                 )
               }
               <button
